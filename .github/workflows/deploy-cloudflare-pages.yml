@@ -1,0 +1,30 @@
+# Deploy estático para Cloudflare Pages (pasta public/).
+# Pré-requisitos no repositório GitHub: Secrets CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID.
+# Projeto Pages deve existir no painel Cloudflare com o mesmo nome de CLOUDFLARE_PAGES_PROJECT_NAME abaixo.
+name: Deploy Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy para Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME || 'calculadoradeprazos' }}

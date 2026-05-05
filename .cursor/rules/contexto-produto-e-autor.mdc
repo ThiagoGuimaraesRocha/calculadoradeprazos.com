@@ -1,0 +1,24 @@
+---
+description: Contexto do autor, produto e prioridades para calculadoradeprazos.com
+alwaysApply: true
+---
+
+# Contexto do projeto e do autor
+
+## Comunicação com o autor
+
+- Responder em **português (pt-BR)** nas conversas de desenvolvimento.
+- Explicações claras, em prosa completa; evitar tom telegráfico.
+
+## Produto (calculadora de prazos)
+
+- Foco em **cálculo de prazos** (datas, contagem de dias, regras de calendário conforme forem definidas no código ou na documentação do projeto).
+- Ao implementar lógica de prazos: **priorizar correção e previsibilidade**; quando houver ambiguidade jurídica ou regional, deixar explícito na UI ou na documentação interna em vez de “chutar” silenciosamente.
+- Manter mudanças **enxutas e alinhadas ao pedido**; não refatorar arquivos não relacionados.
+
+## Contexto de produto (estável)
+
+- **Público-alvo:** usuários do **sistema judiciário do Brasil** (advogados, servidores, estagiários e perfis afins que trabalhem com prazos processuais).
+- **Prioridades de produto:** **precisão** nos resultados e nas regras expostas; **arquitetura escalável** que parta de uma aplicação **só front-end** e permita evoluir para **front-end + back-end** sem reescrita desnecessária.
+- **Necessidade técnica:** front-end como base inicial, com **baixo acoplamento** (camadas claras, limites para futura API/servidor, dados e regras organizados para eventual migração ou duplicação validada no servidor).
+- **O que não fazer:** _a definir_

@@ -1,0 +1,40 @@
+---
+description: Integração Jira, GitHub e deploy Cloudflare Pages alinhada ao produto calculadoradeprazos.com
+alwaysApply: false
+---
+
+# Integrações: Jira, GitHub e Cloudflare Pages
+
+Use esta regra ao configurar CI/CD, branches, PRs ou ao orientar commits que cruzam Jira e GitHub.
+
+## Produto (âncora)
+
+- Público: **sistema judiciário brasileiro**; priorizar **precisão** e **previsibilidade** em prazos e datas.
+- Evitar decisões jurídicas silenciosas: deixar explícito na UI ou no texto do PR quando houver ambiguidade.
+
+## GitHub
+
+- **Branch principal:** `main` (deploy automático via workflow `deploy-cloudflare-pages.yml`).
+- **Branches de trabalho:** `feature/<JIRA-KEY>-slug-curto` ou `fix/<JIRA-KEY>-slug-curto` (ex.: `feature/CALC-12-contagem-dias-uteis`).
+- **Commits:** incluir a chave Jira no assunto para rastreio e automações (ex.: `CALC-12: ajusta feriados estaduais`).
+- **Pull requests:** preencher o template em `.github/pull_request_template.md` com a chave Jira (`Closes`, `Fixes` ou `Relates to`, conforme o processo do time).
+
+## Jira
+
+- Conectar o repositório ao Jira pelo **GitHub for Jira** (ou app equivalente) no site Atlassian: autorizar a org/repo e mapear o projeto.
+- Padronizar **tipo de issue** e **campos** (ex.: ambiente, risco de regra de prazo) conforme o fluxo interno; o código deve refletir o que estiver acordado na issue.
+- Smart commits e transições de workflow dependem da configuração do projeto Jira; alinhar prefixo do projeto (ex.: `CALC-`) com o usado nos branches e commits.
+
+## Cloudflare Pages
+
+- **Conteúdo publicado:** pasta `public/` (site estático até haver build de framework).
+- **Workflow:** `.github/workflows/deploy-cloudflare-pages.yml` dispara em push em `main`.
+- **Secrets no GitHub** (Settings → Secrets and variables → Actions):
+  - `CLOUDFLARE_API_TOKEN` — token com permissão **Edit Cloudflare Workers** (adequado para Pages).
+  - `CLOUDFLARE_ACCOUNT_ID` — ID da conta no painel Cloudflare.
+- **Variável opcional:** `CLOUDFLARE_PAGES_PROJECT_NAME` (repository variable) se o nome do projeto Pages no Cloudflare for diferente do padrão `calculadoradeprazos`.
+- No **painel Cloudflare**: criar o projeto Pages (nome alinhado ao domínio calculadoradeprazos.com), conectar o mesmo repositório se quiser *preview* por PR; o workflow atual faz deploy direto da pasta `public/` para o projeto indicado.
+
+## O que não misturar
+
+- Não colocar tokens Cloudflare ou credenciais Jira no repositório; apenas GitHub Secrets e apps OAuth oficiais.
