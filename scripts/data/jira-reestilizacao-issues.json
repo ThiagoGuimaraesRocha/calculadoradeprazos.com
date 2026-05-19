@@ -1,0 +1,44 @@
+[
+  {
+    "key": "CALC-7",
+    "summary": "Aplicar paleta, tipografia e layout do cartão principal",
+    "labels": ["frontend", "ux"],
+    "description": "## Contexto\nA página em public/index.html usa estilo genérico (Arial, fundo azul claro, cabeçalho preto). A proposta de web design pede identidade institucional calma e leitura confortável para usuários do judiciário.\n\n## Escopo\n- Entra: fundo neutro quente; cartão com borda/sombra suave; cabeçalho em azul escuro institucional; pilha tipográfica system-ui; espaçamento vertical (clamp/padding responsivo).\n- Fora: migração para Vite/Vue; alteração da lógica de cálculo de datas.\n\n## Comportamento esperado\nVisual alinhado à proposta de reestilização aprovada no chat de web design; legível em mobile e desktop.\n\n## Critérios de aceite\n- [ ] Fundo da página em tom neutro (não o azul claro atual).\n- [ ] Cabeçalho com azul escuro institucional e contraste AA para texto branco.\n- [ ] Cartão principal com max-width ~720–800px, padding lateral no mobile e sombra/borda sutis.\n- [ ] Tipografia corpo ≥16px e line-height confortável.\n\n## Notas técnicas\nImplementar em public/index.html (CSS embutido ou arquivo futuro). Branch sugerida: feature/CALC-7-paleta-layout."
+  },
+  {
+    "key": "CALC-8",
+    "summary": "Refatorar HTML semântico (main, form, section)",
+    "labels": ["frontend", "a11y"],
+    "description": "## Contexto\nHoje só existem header e div.container; falta main, form e section, o que prejudica leitores de tela e SEO.\n\n## Escopo\n- Entra: main, form envolvendo inputs, section para resultado; button com type explícito.\n- Fora: mudança de regras de negócio.\n\n## Critérios de aceite\n- [ ] Existe um único h1; hierarquia h2 coerente.\n- [ ] Campos de data e dias dentro de form com labels associados.\n- [ ] Resultado em section dedicada.\n- [ ] Botão Calcular com type=\"button\" (ou submit se form tiver action futura).\n\n## Notas técnicas\nBranch sugerida: feature/CALC-8-semantica-html."
+  },
+  {
+    "key": "CALC-9",
+    "summary": "Estados de foco visível e contraste em controles",
+    "labels": ["a11y", "ux", "frontend"],
+    "description": "## Contexto\nInputs e botão não têm :focus-visible explícito; checklist de acessibilidade do produto exige foco perceptível.\n\n## Escopo\n- Entra: :focus-visible em inputs, botão e links; revisão de contraste botão primário e header.\n- Fora: auditoria WCAG completa de todo o site.\n\n## Critérios de aceite\n- [ ] Foco visível (contorno ≥2px + offset) em inputs e botão via teclado.\n- [ ] Contraste texto/botão e texto/header atende WCAG AA nos pares principais.\n- [ ] Inputs com altura mínima ~44px em áreas de toque.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-9-foco-contraste."
+  },
+  {
+    "key": "CALC-10",
+    "summary": "Exibir erros de validação no fluxo da página",
+    "labels": ["frontend", "ux"],
+    "description": "## Contexto\ncalcular() usa alert() quando campos estão vazios; a skill de web design pede mensagens no fluxo da página.\n\n## Escopo\n- Entra: região de erro (role=\"alert\") abaixo do formulário; JS preenche/oculta mensagem; reduzir ou eliminar alert() para esse caso.\n- Fora: validação de regras de prazo processual.\n\n## Critérios de aceite\n- [ ] Ao calcular sem data ou sem dias, mensagem visível na página em pt-BR.\n- [ ] Mensagem anunciada por leitores de tela (role=\"alert\" ou aria-live adequado).\n- [ ] Erro some ao corrigir campos e recalcular com sucesso.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-10-erro-validacao."
+  },
+  {
+    "key": "CALC-11",
+    "summary": "Adicionar meta description e texto introdutório indexável",
+    "labels": ["seo", "frontend"],
+    "description": "## Contexto\nFalta meta description e parágrafo explicativo honesto sobre o que a ferramenta faz (sem prometer regras CPC/feriados não implementadas).\n\n## Escopo\n- Entra: meta name=\"description\"; parágrafo curto no main explicando listagem de dias consecutivos a partir da data inicial.\n- Fora: blog, sitemap, Open Graph completo.\n\n## Critérios de aceite\n- [ ] meta description presente e fiel ao comportamento atual (dias corridos listados).\n- [ ] Parágrafo introdutório visível sem depender de JavaScript.\n- [ ] Texto não promete feriados, dias úteis ou interpretação jurídica não existente no código.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-11-seo-intro."
+  },
+  {
+    "key": "CALC-12",
+    "summary": "Melhorar região de resultado e aria-live na lista",
+    "labels": ["a11y", "frontend", "ux"],
+    "description": "## Contexto\nA lista de dias é preenchida via JS sem feedback acessível; estilo da lista é básico (borda em cada li).\n\n## Escopo\n- Entra: aria-live=\"polite\" na lista ou container; estilo de lista mais legível (separadores/alternância leve).\n- Fora: exportação PDF, paginação.\n\n## Critérios de aceite\n- [ ] Atualização da lista após Calcular é anunciada por tecnologias assistivas.\n- [ ] Lista vazia vs preenchida com hierarquia visual clara (título Resultado).\n- [ ] Itens da lista legíveis em mobile (sem overflow horizontal).\n\n## Notas técnicas\nBranch sugerida: feature/CALC-12-resultado-a11y."
+  },
+  {
+    "key": "CALC-13",
+    "summary": "Reposicionar contador de acessos como elemento secundário",
+    "labels": ["ux", "frontend"],
+    "description": "## Contexto\nO contador de visitas (localStorage) compete visualmente com o resultado principal.\n\n## Escopo\n- Entra: estilo secundário (fonte menor, cor mais baixa); preferencialmente fora do cartão principal ou em rodapé.\n- Fora: analytics externo (GA, Plausible).\n\n## Critérios de aceite\n- [ ] Contador continua funcionando (incremento em localStorage).\n- [ ] Visualmente subordinado ao formulário e ao resultado.\n- [ ] Legível mas sem destaque de botão ou título.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-13-contador-rodape."
+  }
+]
