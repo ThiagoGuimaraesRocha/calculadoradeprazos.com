@@ -1,0 +1,26 @@
+{
+  "recorrentes": [
+    { "mes": 1, "dia": 1, "nome": "Confraternização Universal" },
+    { "mes": 4, "dia": 21, "nome": "Tiradentes" },
+    { "mes": 5, "dia": 1, "nome": "Dia do Trabalho" },
+    { "mes": 9, "dia": 7, "nome": "Independência do Brasil" },
+    { "mes": 10, "dia": 12, "nome": "Nossa Senhora Aparecida" },
+    { "mes": 11, "dia": 2, "nome": "Finados" },
+    { "mes": 11, "dia": 15, "nome": "Proclamação da República" },
+    { "mes": 12, "dia": 25, "nome": "Natal" }
+  ],
+  "datas": [
+    { "data": "2025-03-03", "nome": "Carnaval" },
+    { "data": "2025-03-04", "nome": "Carnaval" },
+    { "data": "2025-04-18", "nome": "Sexta-feira Santa" },
+    { "data": "2025-06-19", "nome": "Corpus Christi" },
+    { "data": "2026-02-16", "nome": "Carnaval" },
+    { "data": "2026-02-17", "nome": "Carnaval" },
+    { "data": "2026-04-03", "nome": "Sexta-feira Santa" },
+    { "data": "2026-06-04", "nome": "Corpus Christi" },
+    { "data": "2027-02-08", "nome": "Carnaval" },
+    { "data": "2027-02-09", "nome": "Carnaval" },
+    { "data": "2027-03-26", "nome": "Sexta-feira Santa" },
+    { "data": "2027-05-27", "nome": "Corpus Christi" }
+  ]
+}

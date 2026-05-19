@@ -1,0 +1,44 @@
+[
+  {
+    "key": "CALC-14",
+    "summary": "Migrar app para Vite + Vue 3 (piloto GO/TO)",
+    "labels": ["frontend", "vue", "deploy"],
+    "description": "## Contexto\nA calculadora precisa evoluir de HTML monolítico para stack Vite + Vue, preparando API futura sem reescrever o domínio.\n\n## Escopo\n- Entra: projeto Vite + Vue 3 + TS; build para `dist/`; workflow Cloudflare Pages com `npm ci` + `npm run build`.\n- Fora: autenticação, SSR, PWA completo.\n\n## Comportamento esperado\n`npm run dev` sobe a SPA; `npm run build` gera artefatos estáticos com dados em `public/data/`.\n\n## Critérios de aceite\n- [ ] `package.json` com scripts dev/build/test.\n- [ ] Deploy em main publica `dist/` (não mais `public/` cru).\n- [ ] README documenta comandos locais.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-14-vite-vue-piloto."
+  },
+  {
+    "key": "CALC-15",
+    "summary": "Dados estáticos piloto: estados, municípios e tribunais (GO/TO)",
+    "labels": ["frontend", "dados", "piloto"],
+    "description": "## Contexto\nCombos de localidade exigem datasets versionados no repositório, desacoplados de APIs externas.\n\n## Escopo\n- Entra: `public/data/estados.json` (GO, TO); municípios e tribunais por UF; serviço `dadosLocalidade.ts` com fetch local e contrato preparado para API.\n- Fora: demais UFs; sincronização automática com terceiros.\n\n## Critérios de aceite\n- [ ] Apenas GO e TO listados no piloto.\n- [ ] Municípios e tribunais carregam por UF sem erro em produção estática.\n- [ ] Camada de serviço documenta payload futuro `CalculoPrazoApiPayload`.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-15-dados-piloto-go-to."
+  },
+  {
+    "key": "CALC-16",
+    "summary": "Formulário em cascata com Tom Select (município e tribunal)",
+    "labels": ["frontend", "ux", "vue"],
+    "description": "## Contexto\nUsuários do judiciário precisam selecionar comarca e tribunal com busca confortável em listas longas.\n\n## Escopo\n- Entra: Estado/Município/Tribunal obrigatórios; Tom Select em município e tribunal; Matéria, Processo, Contagem nativos; Vara condicional.\n- Fora: temas visuais fora da paleta CALC-7.\n\n## Comportamento esperado\nMunicípio desabilitado até estado; tribunal após município; vara só se houver registros no dataset.\n\n## Critérios de aceite\n- [ ] Estado e município obrigatórios com mensagem no fluxo da página.\n- [ ] Tom Select funcional em mobile e desktop.\n- [ ] Reset em cascata ao trocar estado ou município.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-16-form-cascata-tomselect."
+  },
+  {
+    "key": "CALC-17",
+    "summary": "Motor de cálculo: início D+1 útil, úteis/corridos e recesso",
+    "labels": ["regra-prazo", "frontend"],
+    "description": "## Contexto\nO produto deve refletir regras processuais básicas com premissas explícitas na UI.\n\n## Escopo\n- Entra: módulo puro `calcularPrazo`; início sempre no primeiro dia útil após publicação; contagem úteis ou corridos; suspensão no recesso forense do tribunal.\n- Fora: regras específicas por vara além do dataset; CPC art. 224 exceções não modeladas.\n\n## Premissa\n«Dia útil» exclui sábado, domingo e feriados do calendário carregado (nacional + estadual + municipal).\n\n## Critérios de aceite\n- [ ] Testes Vitest com cenários: sexta→segunda, feriado intermediário, três úteis.\n- [ ] Resultado lista cada dia do prazo com data por extenso.\n- [ ] Avisos de premissa visíveis no resultado.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-17-motor-calculo-prazo."
+  },
+  {
+    "key": "CALC-18",
+    "summary": "Calendário de feriados nacionais, estaduais e municipais (piloto)",
+    "labels": ["regra-prazo", "dados", "piloto"],
+    "description": "## Contexto\nContagem em dias úteis no piloto GO/TO deve considerar feriados locais, não só nacionais.\n\n## Escopo\n- Entra: JSON nacionais; estaduais GO/TO; municipais por id do piloto; integração no `CalendarioContext`.\n- Fora: feriados forenses pontuais por tribunal além do recesso; anos sem tabela móvel atualizada.\n\n## Critérios de aceite\n- [ ] Feriado municipal de Goiânia altera resultado vs só nacional.\n- [ ] Falha ao carregar feriados impede cálculo com mensagem clara.\n- [ ] Fonte dos feriados municipais documentada em nota no repositório.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-18-feriados-piloto."
+  },
+  {
+    "key": "CALC-19",
+    "summary": "Curadoria de varas/unidades judiciárias no piloto GO/TO",
+    "labels": ["dados", "piloto", "frontend"],
+    "description": "## Contexto\nO combo Vara depende de base própria; a API de referência pública retornou vazio para o piloto na coleta inicial.\n\n## Escopo\n- Entra: estrutura `public/data/varas/piloto-go-to.json`; UI exibe campo quando há varas; validação obrigatória se visível.\n- Fora: cobertura nacional de varas.\n\n## Critérios de aceite\n- [ ] Pelo menos um conjunto tribunal+município+matéria+processo com varas preenchidas para teste manual.\n- [ ] Sem varas: bloco oculto e cálculo permitido.\n- [ ] Com varas: seleção obrigatória antes de calcular.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-19-varas-piloto."
+  },
+  {
+    "key": "CALC-20",
+    "summary": "Endpoint API de cálculo de prazo (espelho do domínio)",
+    "labels": ["backend", "api", "regra-prazo"],
+    "description": "## Contexto\nArquitetura deve permitir validação server-side em breve, sem divergência do front.\n\n## Escopo\n- Entra: contrato `CalculoPrazoInput`/`CalculoPrazoResult` compartilhável; rota POST `/api/calculo-prazo` (Cloudflare Worker ou similar) reutilizando mesma lógica.\n- Fora: persistência, filas, autenticação.\n\n## Critérios de aceite\n- [ ] Payload documentado e igual ao usado no front.\n- [ ] Resposta de erro 4xx para entrada inválida.\n- [ ] Testes de paridade front/API em pelo menos 3 cenários.\n\n## Notas técnicas\nBranch sugerida: feature/CALC-20-api-calculo-prazo."
+  }
+]

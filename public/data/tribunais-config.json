@@ -1,0 +1,26 @@
+{
+  "31": {
+    "nome": "TJ - GO",
+    "recessoForense": { "inicioMes": 12, "inicioDia": 20, "fimMes": 1, "fimDia": 20 }
+  },
+  "32": {
+    "nome": "TRF1 - Seção Judiciária Federal de Goiás",
+    "recessoForense": { "inicioMes": 12, "inicioDia": 20, "fimMes": 1, "fimDia": 20 }
+  },
+  "33": {
+    "nome": "TRT - 18ª Região",
+    "recessoForense": { "inicioMes": 12, "inicioDia": 20, "fimMes": 1, "fimDia": 20 }
+  },
+  "90": {
+    "nome": "TJ - TO",
+    "recessoForense": { "inicioMes": 12, "inicioDia": 20, "fimMes": 1, "fimDia": 20 }
+  },
+  "91": {
+    "nome": "TRF1 - Seção Judiciária Federal de Tocantins",
+    "recessoForense": { "inicioMes": 12, "inicioDia": 20, "fimMes": 1, "fimDia": 20 }
+  },
+  "92": {
+    "nome": "TRT - 10ª Região",
+    "recessoForense": { "inicioMes": 12, "inicioDia": 20, "fimMes": 1, "fimDia": 20 }
+  }
+}

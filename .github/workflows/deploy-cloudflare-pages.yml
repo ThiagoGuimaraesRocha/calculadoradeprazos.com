@@ -1,6 +1,5 @@
-# Deploy estático para Cloudflare Pages (pasta public/).
-# Pré-requisitos no repositório GitHub: Secrets CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID.
-# Projeto Pages deve existir no painel Cloudflare com o mesmo nome de CLOUDFLARE_PAGES_PROJECT_NAME abaixo.
+# Deploy estático para Cloudflare Pages (Vite + Vue 3 → dist/).
+# Pré-requisitos no GitHub: Secrets CLOUDFLARE_API_TOKEN e CLOUDFLARE_ACCOUNT_ID.
 name: Deploy Cloudflare Pages
 
 on:
@@ -22,10 +21,35 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Testes
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Definir nome do projeto Pages
+        id: pages
+        run: |
+          if [ -n "${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}" ]; then
+            echo "project=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "project=calculadoradeprazos" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Deploy para Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'calculadoradeprazos'
-          directory: ./public  # adjust to your build output directory
+          projectName: ${{ steps.pages.outputs.project }}
+          directory: dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

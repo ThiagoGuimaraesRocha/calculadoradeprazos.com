@@ -1,0 +1,17 @@
+{
+  "entries": [
+    {
+      "key": "GO:992:31:0:0",
+      "varas": [
+        { "id": 1001, "vara": "1ª Vara Cível (curadoria piloto — conferir unidade no TJGO)" },
+        { "id": 1002, "vara": "2ª Vara Cível (curadoria piloto — conferir unidade no TJGO)" }
+      ]
+    },
+    {
+      "key": "TO:5535:90:0:0",
+      "varas": [
+        { "id": 2001, "vara": "Vara Cível de Palmas (curadoria piloto — conferir unidade no TJTO)" }
+      ]
+    }
+  ]
+}
