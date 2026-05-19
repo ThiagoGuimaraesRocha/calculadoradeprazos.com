@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liste cada dia consecutivo a partir de uma data inicial e da quantidade informada. Contagem em dias corridos, sem feriados nem regras processuais.">
   <title>Calculadora de Prazos</title>
   <style>
     :root {
@@ -64,6 +65,13 @@
       font-weight: 600;
       line-height: 1.3;
       letter-spacing: -0.01em;
+    }
+
+    .intro {
+      margin: 0 0 1.5rem;
+      color: var(--color-text-muted);
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
     }
 
     .container {
@@ -210,6 +218,10 @@
   </header>
 
   <main class="container">
+    <p class="intro">
+      Informe a data inicial e quantos dias deseja listar. A ferramenta mostra cada dia consecutivo em sequência (dias corridos). Não considera feriados, exclusão de fins de semana nem regras de prazo do processo civil ou penal.
+    </p>
+
     <form id="formCalcular" action="#" method="get" novalidate>
       <label for="startDate">Data inicial</label>
       <input type="date" id="startDate" name="startDate" required>
