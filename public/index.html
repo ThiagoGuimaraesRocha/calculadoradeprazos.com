@@ -79,8 +79,12 @@
       font-size: var(--font-size-base);
     }
 
-    label:first-of-type {
+    form label:first-of-type {
       margin-top: 0;
+    }
+
+    form {
+      margin: 0;
     }
 
     input,
@@ -115,11 +119,11 @@
       background-color: var(--color-primary-hover);
     }
 
-    .result {
+    section.result {
       margin-top: 2rem;
     }
 
-    .result h2 {
+    section.result h2 {
       margin: 0 0 0.75rem;
       font-size: 1.125rem;
       font-weight: 600;
@@ -143,7 +147,7 @@
       text-align: right;
       font-size: 0.875rem;
       line-height: var(--line-height-base);
-      margin-top: 1.5rem;
+      margin: 1.5rem 0 0;
       color: var(--color-text-muted);
     }
   </style>
@@ -153,26 +157,34 @@
     <h1>Calculadora de Prazos</h1>
   </header>
 
-  <div class="container">
-    <label for="startDate">Data inicial:</label>
-    <input type="date" id="startDate">
+  <main class="container">
+    <form id="formCalcular" action="#" method="get" novalidate>
+      <label for="startDate">Data inicial</label>
+      <input type="date" id="startDate" name="startDate" required>
 
-    <label for="days">Quantidade de dias:</label>
-    <input type="number" id="days" min="1">
+      <label for="days">Quantidade de dias</label>
+      <input type="number" id="days" name="days" min="1" required>
 
-    <button type="button" onclick="calcular()">Calcular</button>
+      <button type="button" id="btnCalcular">Calcular</button>
+    </form>
 
-    <div class="result">
-      <h2>Resultado:</h2>
+    <section class="result" aria-labelledby="resultado-titulo">
+      <h2 id="resultado-titulo">Resultado</h2>
       <ul id="listaDias"></ul>
-    </div>
+    </section>
 
-    <div class="counter">
+    <p class="counter">
       Acessos: <span id="contador"></span>
-    </div>
-  </div>
+    </p>
+  </main>
 
   <script>
+    document.getElementById('btnCalcular').addEventListener('click', calcular);
+    document.getElementById('formCalcular').addEventListener('submit', function (event) {
+      event.preventDefault();
+      calcular();
+    });
+
     function calcular() {
       const startDateInput = document.getElementById('startDate').value;
       const days = parseInt(document.getElementById('days').value);
