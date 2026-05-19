@@ -1,139 +1,223 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Prazos</title>
   <style>
+    :root {
+      /* Paleta institucional (CALC-7) */
+      --color-bg-page: #f4f5f7;
+      --color-header-bg: #1e3a5f;
+      --color-header-text: #ffffff;
+      --color-text: #1a2332;
+      --color-text-muted: #4a5568;
+      --color-card-bg: #ffffff;
+      --color-card-border: #e2e5ea;
+      --color-primary: #2563eb;
+      --color-primary-hover: #1d4ed8;
+      --color-input-border: #cbd5e1;
+
+      --font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --font-size-base: 1rem;
+      --line-height-base: 1.6;
+      --card-max-width: 48rem;
+      --page-padding-x: clamp(1rem, 4vw, 1.5rem);
+      --card-padding: clamp(1.25rem, 4vw, 2rem);
+      --card-radius: 0.5rem;
+      --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.06), 0 4px 16px rgba(15, 23, 42, 0.08);
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #e6f2ff;
-      color: #000;
+      font-family: var(--font-family);
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
+      color: var(--color-text);
+      background-color: var(--color-bg-page);
       margin: 0;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: var(--color-header-bg);
+      color: var(--color-header-text);
+      padding: clamp(1rem, 3vw, 1.25rem) var(--page-padding-x);
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: clamp(1.25rem, 3vw, 1.5rem);
+      font-weight: 600;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    .container {
+      max-width: var(--card-max-width);
+      width: calc(100% - 2 * var(--page-padding-x));
+      margin: clamp(1.5rem, 4vw, 2.5rem) auto;
+      padding: var(--card-padding);
+      padding-left: max(var(--card-padding), var(--page-padding-x));
+      padding-right: max(var(--card-padding), var(--page-padding-x));
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-card-border);
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow-card);
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: 600;
+      font-size: var(--font-size-base);
+    }
+
+    label:first-of-type {
+      margin-top: 0;
+    }
+
+    input,
+    button {
+      width: 100%;
+      font-family: inherit;
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
+    }
+
+    input {
+      padding: 0.5rem 0.75rem;
+      margin-top: 0.5rem;
+      border-radius: 0.25rem;
+      border: 1px solid var(--color-input-border);
+      background: var(--color-card-bg);
+      color: var(--color-text);
+    }
+
+    button {
+      padding: 0.625rem 1rem;
+      margin-top: 1rem;
+      border-radius: 0.25rem;
+      border: none;
+      background-color: var(--color-primary);
+      color: #fff;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: var(--color-primary-hover);
+    }
+
+    .result {
+      margin-top: 2rem;
+    }
+
+    .result h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    ul {
+      list-style: none;
       padding: 0;
-    }header {
-  background-color: #000;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-}
+      margin: 0;
+    }
 
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
-  background: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+    li {
+      padding: 0.625rem 0;
+      border-bottom: 1px solid var(--color-card-border);
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
+    }
 
-label {
-  display: block;
-  margin-top: 1rem;
-  font-weight: bold;
-}
-
-input, button {
-  width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-
-button {
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  margin-top: 1rem;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-.result {
-  margin-top: 2rem;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  padding: 0.5rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.counter {
-  text-align: right;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-  color: #333;
-}
-
+    .counter {
+      text-align: right;
+      font-size: 0.875rem;
+      line-height: var(--line-height-base);
+      margin-top: 1.5rem;
+      color: var(--color-text-muted);
+    }
   </style>
 </head>
-<body><header>
-  <h1>Calculadora de Prazos</h1>
-</header><div class="container">
-  <label for="startDate">Data inicial:</label>
-  <input type="date" id="startDate"><label for="days">Quantidade de dias:</label> <input type="number" id="days" min="1">
+<body>
+  <header>
+    <h1>Calculadora de Prazos</h1>
+  </header>
 
-<button onclick="calcular()">Calcular</button>
+  <div class="container">
+    <label for="startDate">Data inicial:</label>
+    <input type="date" id="startDate">
 
-  <div class="result">
-    <h2>Resultado:</h2>
-    <ul id="listaDias"></ul>
-  </div>  <div class="counter">
-    Acessos: <span id="contador"></span>
+    <label for="days">Quantidade de dias:</label>
+    <input type="number" id="days" min="1">
+
+    <button type="button" onclick="calcular()">Calcular</button>
+
+    <div class="result">
+      <h2>Resultado:</h2>
+      <ul id="listaDias"></ul>
+    </div>
+
+    <div class="counter">
+      Acessos: <span id="contador"></span>
+    </div>
   </div>
-</div><script>
-  function calcular() {
-    const startDateInput = document.getElementById('startDate').value;
-    const days = parseInt(document.getElementById('days').value);
-    const lista = document.getElementById('listaDias');
 
-    lista.innerHTML = '';
+  <script>
+    function calcular() {
+      const startDateInput = document.getElementById('startDate').value;
+      const days = parseInt(document.getElementById('days').value);
+      const lista = document.getElementById('listaDias');
 
-    if (!startDateInput || !days) {
-      alert('Preencha todos os campos');
-      return;
+      lista.innerHTML = '';
+
+      if (!startDateInput || !days) {
+        alert('Preencha todos os campos');
+        return;
+      }
+
+      let currentDate = new Date(startDateInput);
+
+      for (let i = 0; i < days; i++) {
+        let li = document.createElement('li');
+
+        let formattedDate = currentDate.toLocaleDateString('pt-BR', {
+          weekday: 'long',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit'
+        });
+
+        li.textContent = `Dia ${i + 1}: ${formattedDate}`;
+        lista.appendChild(li);
+
+        currentDate.setDate(currentDate.getDate() + 1);
+      }
     }
 
-    let currentDate = new Date(startDateInput);
+    function atualizarContador() {
+      let visitas = localStorage.getItem('visitas');
 
-    for (let i = 0; i < days; i++) {
-      let li = document.createElement('li');
+      if (!visitas) {
+        visitas = 0;
+      }
 
-      let formattedDate = currentDate.toLocaleDateString('pt-BR', {
-        weekday: 'long',
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit'
-      });
+      visitas++;
+      localStorage.setItem('visitas', visitas);
 
-      li.textContent = `Dia ${i + 1}: ${formattedDate}`;
-      lista.appendChild(li);
-
-      currentDate.setDate(currentDate.getDate() + 1);
-    }
-  }
-
-  function atualizarContador() {
-    let visitas = localStorage.getItem('visitas');
-
-    if (!visitas) {
-      visitas = 0;
+      document.getElementById('contador').textContent = visitas;
     }
 
-    visitas++;
-    localStorage.setItem('visitas', visitas);
-
-    document.getElementById('contador').textContent = visitas;
-  }
-
-  atualizarContador();
-</script></body>
+    atualizarContador();
+  </script>
+</body>
 </html>
