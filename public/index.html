@@ -181,6 +181,8 @@
 
     section.result {
       margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--color-card-border);
     }
 
     section.result h2 {
@@ -190,24 +192,62 @@
       line-height: 1.4;
     }
 
-    ul {
+    .result-empty {
+      margin: 0;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      background-color: var(--color-bg-page);
+      color: var(--color-text-muted);
+      font-size: 0.9375rem;
+      line-height: var(--line-height-base);
+    }
+
+    .result-empty[hidden] {
+      display: none;
+    }
+
+    .result-list {
       list-style: none;
       padding: 0;
       margin: 0;
+      border: 1px solid var(--color-card-border);
+      border-radius: 0.25rem;
+      overflow: hidden;
     }
 
-    li {
-      padding: 0.625rem 0;
+    .result-list[hidden] {
+      display: none;
+    }
+
+    .result-list li {
+      padding: 0.75rem 0.625rem;
       border-bottom: 1px solid var(--color-card-border);
       font-size: var(--font-size-base);
       line-height: var(--line-height-base);
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
-    .counter {
-      text-align: right;
-      font-size: 0.875rem;
+    .result-list li:last-child {
+      border-bottom: none;
+    }
+
+    .result-list li:nth-child(even) {
+      background-color: var(--color-bg-page);
+    }
+
+    .site-footer {
+      max-width: var(--card-max-width);
+      width: calc(100% - 2 * var(--page-padding-x));
+      margin: -0.5rem auto clamp(1.5rem, 4vw, 2rem);
+      padding: 0 var(--page-padding-x);
+      text-align: center;
+    }
+
+    .site-footer .counter {
+      margin: 0;
+      font-size: 0.8125rem;
       line-height: var(--line-height-base);
-      margin: 1.5rem 0 0;
       color: var(--color-text-muted);
     }
   </style>
@@ -235,19 +275,26 @@
 
     <section class="result" aria-labelledby="resultado-titulo">
       <h2 id="resultado-titulo">Resultado</h2>
-      <ul id="listaDias"></ul>
+      <p id="resultadoVazio" class="result-empty">
+        Nenhum cálculo realizado ainda. Preencha os campos e clique em Calcular.
+      </p>
+      <ul id="listaDias" class="result-list" aria-live="polite" hidden></ul>
     </section>
+  </main>
 
+  <footer class="site-footer">
     <p class="counter">
       Acessos: <span id="contador"></span>
     </p>
-  </main>
+  </footer>
 
   <script>
     const formCalcular = document.getElementById('formCalcular');
     const inputStartDate = document.getElementById('startDate');
     const inputDays = document.getElementById('days');
     const erroFormulario = document.getElementById('erroFormulario');
+    const listaDias = document.getElementById('listaDias');
+    const resultadoVazio = document.getElementById('resultadoVazio');
 
     document.getElementById('btnCalcular').addEventListener('click', calcular);
     formCalcular.addEventListener('submit', function (event) {
@@ -285,26 +332,33 @@
       inputDays.removeAttribute('aria-invalid');
     }
 
+    function atualizarEstadoResultado() {
+      const temItens = listaDias.children.length > 0;
+      resultadoVazio.hidden = temItens;
+      listaDias.hidden = !temItens;
+    }
+
     function calcular() {
       const startDateInput = inputStartDate.value;
       const days = parseInt(inputDays.value, 10);
-      const lista = document.getElementById('listaDias');
 
-      lista.innerHTML = '';
+      listaDias.innerHTML = '';
 
       if (!startDateInput || !inputDays.value || Number.isNaN(days) || days < 1) {
         mostrarErro('Preencha a data inicial e a quantidade de dias (mínimo 1).');
+        atualizarEstadoResultado();
         return;
       }
 
       limparErro();
 
       let currentDate = new Date(startDateInput);
+      const fragment = document.createDocumentFragment();
 
       for (let i = 0; i < days; i++) {
-        let li = document.createElement('li');
+        const li = document.createElement('li');
 
-        let formattedDate = currentDate.toLocaleDateString('pt-BR', {
+        const formattedDate = currentDate.toLocaleDateString('pt-BR', {
           weekday: 'long',
           year: 'numeric',
           month: '2-digit',
@@ -312,11 +366,16 @@
         });
 
         li.textContent = `Dia ${i + 1}: ${formattedDate}`;
-        lista.appendChild(li);
+        fragment.appendChild(li);
 
         currentDate.setDate(currentDate.getDate() + 1);
       }
+
+      listaDias.appendChild(fragment);
+      atualizarEstadoResultado();
     }
+
+    atualizarEstadoResultado();
 
     function atualizarContador() {
       let visitas = localStorage.getItem('visitas');
