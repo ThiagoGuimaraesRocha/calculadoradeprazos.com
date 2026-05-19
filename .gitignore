@@ -6,3 +6,5 @@ dist/
 .dev.vars
 .env
 .env.*
+.cursor/mcp.json
+scripts/jira.env
