@@ -20,6 +20,9 @@
       --color-input-border: #cbd5e1;
       --color-focus-ring: #1d4ed8;
       --color-focus-ring-on-primary: #ffffff;
+      --color-error-text: #991b1b;
+      --color-error-bg: #fef2f2;
+      --color-error-border: #fecaca;
       --touch-target-min: 2.75rem;
 
       --font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -149,6 +152,25 @@
       box-shadow: 0 0 0 4px var(--color-primary);
     }
 
+    .form-error {
+      margin: 1rem 0 0;
+      padding: 0.75rem 1rem;
+      border-radius: 0.25rem;
+      border: 1px solid var(--color-error-border);
+      background-color: var(--color-error-bg);
+      color: var(--color-error-text);
+      font-size: var(--font-size-base);
+      line-height: var(--line-height-base);
+    }
+
+    .form-error[hidden] {
+      display: none;
+    }
+
+    input[aria-invalid="true"] {
+      border-color: var(--color-error-text);
+    }
+
     section.result {
       margin-top: 2rem;
     }
@@ -196,6 +218,7 @@
       <input type="number" id="days" name="days" min="1" required>
 
       <button type="button" id="btnCalcular">Calcular</button>
+      <p id="erroFormulario" class="form-error" role="alert" hidden></p>
     </form>
 
     <section class="result" aria-labelledby="resultado-titulo">
@@ -209,23 +232,60 @@
   </main>
 
   <script>
+    const formCalcular = document.getElementById('formCalcular');
+    const inputStartDate = document.getElementById('startDate');
+    const inputDays = document.getElementById('days');
+    const erroFormulario = document.getElementById('erroFormulario');
+
     document.getElementById('btnCalcular').addEventListener('click', calcular);
-    document.getElementById('formCalcular').addEventListener('submit', function (event) {
+    formCalcular.addEventListener('submit', function (event) {
       event.preventDefault();
       calcular();
     });
 
+    inputStartDate.addEventListener('input', limparErro);
+    inputDays.addEventListener('input', limparErro);
+
+    function mostrarErro(mensagem) {
+      erroFormulario.textContent = mensagem;
+      erroFormulario.hidden = false;
+
+      const dias = parseInt(inputDays.value, 10);
+      const diasInvalidos = !inputDays.value || Number.isNaN(dias) || dias < 1;
+
+      if (!inputStartDate.value) {
+        inputStartDate.setAttribute('aria-invalid', 'true');
+      } else {
+        inputStartDate.removeAttribute('aria-invalid');
+      }
+
+      if (diasInvalidos) {
+        inputDays.setAttribute('aria-invalid', 'true');
+      } else {
+        inputDays.removeAttribute('aria-invalid');
+      }
+    }
+
+    function limparErro() {
+      erroFormulario.textContent = '';
+      erroFormulario.hidden = true;
+      inputStartDate.removeAttribute('aria-invalid');
+      inputDays.removeAttribute('aria-invalid');
+    }
+
     function calcular() {
-      const startDateInput = document.getElementById('startDate').value;
-      const days = parseInt(document.getElementById('days').value);
+      const startDateInput = inputStartDate.value;
+      const days = parseInt(inputDays.value, 10);
       const lista = document.getElementById('listaDias');
 
       lista.innerHTML = '';
 
-      if (!startDateInput || !days) {
-        alert('Preencha todos os campos');
+      if (!startDateInput || !inputDays.value || Number.isNaN(days) || days < 1) {
+        mostrarErro('Preencha a data inicial e a quantidade de dias (mínimo 1).');
         return;
       }
+
+      limparErro();
 
       let currentDate = new Date(startDateInput);
 
