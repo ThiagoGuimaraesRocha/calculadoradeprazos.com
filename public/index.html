@@ -14,9 +14,13 @@
       --color-text-muted: #4a5568;
       --color-card-bg: #ffffff;
       --color-card-border: #e2e5ea;
-      --color-primary: #2563eb;
-      --color-primary-hover: #1d4ed8;
+      /* Primário e foco com contraste AA (texto branco sobre o botão) */
+      --color-primary: #1d4ed8;
+      --color-primary-hover: #1e40af;
       --color-input-border: #cbd5e1;
+      --color-focus-ring: #1d4ed8;
+      --color-focus-ring-on-primary: #ffffff;
+      --touch-target-min: 2.75rem;
 
       --font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       --font-size-base: 1rem;
@@ -96,7 +100,8 @@
     }
 
     input {
-      padding: 0.5rem 0.75rem;
+      min-height: var(--touch-target-min);
+      padding: 0.625rem 0.75rem;
       margin-top: 0.5rem;
       border-radius: 0.25rem;
       border: 1px solid var(--color-input-border);
@@ -105,18 +110,43 @@
     }
 
     button {
+      min-height: var(--touch-target-min);
       padding: 0.625rem 1rem;
       margin-top: 1rem;
       border-radius: 0.25rem;
       border: none;
       background-color: var(--color-primary);
-      color: #fff;
+      color: #ffffff;
       font-weight: 600;
       cursor: pointer;
     }
 
     button:hover {
       background-color: var(--color-primary-hover);
+    }
+
+    button:active {
+      background-color: var(--color-primary-hover);
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    input:focus-visible {
+      outline: 2px solid var(--color-focus-ring);
+      outline-offset: 2px;
+      border-color: var(--color-focus-ring);
+    }
+
+    button:focus {
+      outline: none;
+    }
+
+    button:focus-visible {
+      outline: 2px solid var(--color-focus-ring-on-primary);
+      outline-offset: 2px;
+      box-shadow: 0 0 0 4px var(--color-primary);
     }
 
     section.result {
