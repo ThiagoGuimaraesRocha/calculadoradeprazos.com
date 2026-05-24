@@ -1,16 +1,4839 @@
 {
   "entries": [
     {
+      "key": "GO:904:31:0:0",
+      "varas": [
+        {
+          "id": 90710,
+          "vara": "1ª Vara Cível — Águas Lindas de Goiás (TJ - GO)"
+        },
+        {
+          "id": 90711,
+          "vara": "2ª Vara Cível — Águas Lindas de Goiás (TJ - GO)"
+        },
+        {
+          "id": 90712,
+          "vara": "Vara de Família — Águas Lindas de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:31:0:1",
+      "varas": [
+        {
+          "id": 90711,
+          "vara": "1ª Vara Cível — Águas Lindas de Goiás (TJ - GO)"
+        },
+        {
+          "id": 90712,
+          "vara": "2ª Vara Cível — Águas Lindas de Goiás (TJ - GO)"
+        },
+        {
+          "id": 90713,
+          "vara": "Vara de Família — Águas Lindas de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:31:1:0",
+      "varas": [
+        {
+          "id": 90712,
+          "vara": "1ª Vara Criminal — Águas Lindas de Goiás (TJ - GO)"
+        },
+        {
+          "id": 90713,
+          "vara": "2ª Vara Criminal — Águas Lindas de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:31:1:1",
+      "varas": [
+        {
+          "id": 90713,
+          "vara": "1ª Vara Criminal — Águas Lindas de Goiás (TJ - GO)"
+        },
+        {
+          "id": 90714,
+          "vara": "2ª Vara Criminal — Águas Lindas de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:31:2:0",
+      "varas": [
+        {
+          "id": 90714,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Águas Lindas de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:31:2:1",
+      "varas": [
+        {
+          "id": 90715,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Águas Lindas de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:32:0:0",
+      "varas": [
+        {
+          "id": 90720,
+          "vara": "1ª Vara Federal — Águas Lindas de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:32:0:1",
+      "varas": [
+        {
+          "id": 90721,
+          "vara": "1ª Vara Federal — Águas Lindas de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:32:1:0",
+      "varas": [
+        {
+          "id": 90722,
+          "vara": "2ª Vara Federal — Águas Lindas de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:32:1:1",
+      "varas": [
+        {
+          "id": 90723,
+          "vara": "2ª Vara Federal — Águas Lindas de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:32:2:0",
+      "varas": [
+        {
+          "id": 90724,
+          "vara": "Juizado Especial Federal — Águas Lindas de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:32:2:1",
+      "varas": [
+        {
+          "id": 90725,
+          "vara": "Juizado Especial Federal — Águas Lindas de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:33:0:0",
+      "varas": [
+        {
+          "id": 90730,
+          "vara": "Vara do Trabalho — Águas Lindas de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:33:0:1",
+      "varas": [
+        {
+          "id": 90731,
+          "vara": "Vara do Trabalho — Águas Lindas de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:33:1:0",
+      "varas": [
+        {
+          "id": 90732,
+          "vara": "Vara do Trabalho — Águas Lindas de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:33:1:1",
+      "varas": [
+        {
+          "id": 90733,
+          "vara": "Vara do Trabalho — Águas Lindas de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:33:2:0",
+      "varas": [
+        {
+          "id": 90734,
+          "vara": "Vara do Trabalho — Águas Lindas de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:904:33:2:1",
+      "varas": [
+        {
+          "id": 90735,
+          "vara": "Vara do Trabalho — Águas Lindas de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:31:0:0",
+      "varas": [
+        {
+          "id": 91610,
+          "vara": "1ª Vara Cível — Anápolis (TJ - GO)"
+        },
+        {
+          "id": 91611,
+          "vara": "2ª Vara Cível — Anápolis (TJ - GO)"
+        },
+        {
+          "id": 91612,
+          "vara": "Vara de Família — Anápolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:31:0:1",
+      "varas": [
+        {
+          "id": 91611,
+          "vara": "1ª Vara Cível — Anápolis (TJ - GO)"
+        },
+        {
+          "id": 91612,
+          "vara": "2ª Vara Cível — Anápolis (TJ - GO)"
+        },
+        {
+          "id": 91613,
+          "vara": "Vara de Família — Anápolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:31:1:0",
+      "varas": [
+        {
+          "id": 91612,
+          "vara": "1ª Vara Criminal — Anápolis (TJ - GO)"
+        },
+        {
+          "id": 91613,
+          "vara": "2ª Vara Criminal — Anápolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:31:1:1",
+      "varas": [
+        {
+          "id": 91613,
+          "vara": "1ª Vara Criminal — Anápolis (TJ - GO)"
+        },
+        {
+          "id": 91614,
+          "vara": "2ª Vara Criminal — Anápolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:31:2:0",
+      "varas": [
+        {
+          "id": 91614,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Anápolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:31:2:1",
+      "varas": [
+        {
+          "id": 91615,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Anápolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:32:0:0",
+      "varas": [
+        {
+          "id": 91620,
+          "vara": "1ª Vara Federal — Anápolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:32:0:1",
+      "varas": [
+        {
+          "id": 91621,
+          "vara": "1ª Vara Federal — Anápolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:32:1:0",
+      "varas": [
+        {
+          "id": 91622,
+          "vara": "2ª Vara Federal — Anápolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:32:1:1",
+      "varas": [
+        {
+          "id": 91623,
+          "vara": "2ª Vara Federal — Anápolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:32:2:0",
+      "varas": [
+        {
+          "id": 91624,
+          "vara": "Juizado Especial Federal — Anápolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:32:2:1",
+      "varas": [
+        {
+          "id": 91625,
+          "vara": "Juizado Especial Federal — Anápolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:33:0:0",
+      "varas": [
+        {
+          "id": 91630,
+          "vara": "Vara do Trabalho — Anápolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:33:0:1",
+      "varas": [
+        {
+          "id": 91631,
+          "vara": "Vara do Trabalho — Anápolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:33:1:0",
+      "varas": [
+        {
+          "id": 91632,
+          "vara": "Vara do Trabalho — Anápolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:33:1:1",
+      "varas": [
+        {
+          "id": 91633,
+          "vara": "Vara do Trabalho — Anápolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:33:2:0",
+      "varas": [
+        {
+          "id": 91634,
+          "vara": "Vara do Trabalho — Anápolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:913:33:2:1",
+      "varas": [
+        {
+          "id": 91635,
+          "vara": "Vara do Trabalho — Anápolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:31:0:0",
+      "varas": [
+        {
+          "id": 91910,
+          "vara": "1ª Vara Cível — Aparecida de Goiânia (TJ - GO)"
+        },
+        {
+          "id": 91911,
+          "vara": "2ª Vara Cível — Aparecida de Goiânia (TJ - GO)"
+        },
+        {
+          "id": 91912,
+          "vara": "Vara de Família — Aparecida de Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:31:0:1",
+      "varas": [
+        {
+          "id": 91911,
+          "vara": "1ª Vara Cível — Aparecida de Goiânia (TJ - GO)"
+        },
+        {
+          "id": 91912,
+          "vara": "2ª Vara Cível — Aparecida de Goiânia (TJ - GO)"
+        },
+        {
+          "id": 91913,
+          "vara": "Vara de Família — Aparecida de Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:31:1:0",
+      "varas": [
+        {
+          "id": 91912,
+          "vara": "1ª Vara Criminal — Aparecida de Goiânia (TJ - GO)"
+        },
+        {
+          "id": 91913,
+          "vara": "2ª Vara Criminal — Aparecida de Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:31:1:1",
+      "varas": [
+        {
+          "id": 91913,
+          "vara": "1ª Vara Criminal — Aparecida de Goiânia (TJ - GO)"
+        },
+        {
+          "id": 91914,
+          "vara": "2ª Vara Criminal — Aparecida de Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:31:2:0",
+      "varas": [
+        {
+          "id": 91914,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Aparecida de Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:31:2:1",
+      "varas": [
+        {
+          "id": 91915,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Aparecida de Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:32:0:0",
+      "varas": [
+        {
+          "id": 91920,
+          "vara": "1ª Vara Federal — Aparecida de Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:32:0:1",
+      "varas": [
+        {
+          "id": 91921,
+          "vara": "1ª Vara Federal — Aparecida de Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:32:1:0",
+      "varas": [
+        {
+          "id": 91922,
+          "vara": "2ª Vara Federal — Aparecida de Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:32:1:1",
+      "varas": [
+        {
+          "id": 91923,
+          "vara": "2ª Vara Federal — Aparecida de Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:32:2:0",
+      "varas": [
+        {
+          "id": 91924,
+          "vara": "Juizado Especial Federal — Aparecida de Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:32:2:1",
+      "varas": [
+        {
+          "id": 91925,
+          "vara": "Juizado Especial Federal — Aparecida de Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:33:0:0",
+      "varas": [
+        {
+          "id": 91930,
+          "vara": "Vara do Trabalho — Aparecida de Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:33:0:1",
+      "varas": [
+        {
+          "id": 91931,
+          "vara": "Vara do Trabalho — Aparecida de Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:33:1:0",
+      "varas": [
+        {
+          "id": 91932,
+          "vara": "Vara do Trabalho — Aparecida de Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:33:1:1",
+      "varas": [
+        {
+          "id": 91933,
+          "vara": "Vara do Trabalho — Aparecida de Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:33:2:0",
+      "varas": [
+        {
+          "id": 91934,
+          "vara": "Vara do Trabalho — Aparecida de Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:916:33:2:1",
+      "varas": [
+        {
+          "id": 91935,
+          "vara": "Vara do Trabalho — Aparecida de Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:31:0:0",
+      "varas": [
+        {
+          "id": 94810,
+          "vara": "1ª Vara Cível — Caldas Novas (TJ - GO)"
+        },
+        {
+          "id": 94811,
+          "vara": "2ª Vara Cível — Caldas Novas (TJ - GO)"
+        },
+        {
+          "id": 94812,
+          "vara": "Vara de Família — Caldas Novas (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:31:0:1",
+      "varas": [
+        {
+          "id": 94811,
+          "vara": "1ª Vara Cível — Caldas Novas (TJ - GO)"
+        },
+        {
+          "id": 94812,
+          "vara": "2ª Vara Cível — Caldas Novas (TJ - GO)"
+        },
+        {
+          "id": 94813,
+          "vara": "Vara de Família — Caldas Novas (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:31:1:0",
+      "varas": [
+        {
+          "id": 94812,
+          "vara": "1ª Vara Criminal — Caldas Novas (TJ - GO)"
+        },
+        {
+          "id": 94813,
+          "vara": "2ª Vara Criminal — Caldas Novas (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:31:1:1",
+      "varas": [
+        {
+          "id": 94813,
+          "vara": "1ª Vara Criminal — Caldas Novas (TJ - GO)"
+        },
+        {
+          "id": 94814,
+          "vara": "2ª Vara Criminal — Caldas Novas (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:31:2:0",
+      "varas": [
+        {
+          "id": 94814,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Caldas Novas (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:31:2:1",
+      "varas": [
+        {
+          "id": 94815,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Caldas Novas (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:32:0:0",
+      "varas": [
+        {
+          "id": 94820,
+          "vara": "1ª Vara Federal — Caldas Novas (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:32:0:1",
+      "varas": [
+        {
+          "id": 94821,
+          "vara": "1ª Vara Federal — Caldas Novas (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:32:1:0",
+      "varas": [
+        {
+          "id": 94822,
+          "vara": "2ª Vara Federal — Caldas Novas (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:32:1:1",
+      "varas": [
+        {
+          "id": 94823,
+          "vara": "2ª Vara Federal — Caldas Novas (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:32:2:0",
+      "varas": [
+        {
+          "id": 94824,
+          "vara": "Juizado Especial Federal — Caldas Novas (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:32:2:1",
+      "varas": [
+        {
+          "id": 94825,
+          "vara": "Juizado Especial Federal — Caldas Novas (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:33:0:0",
+      "varas": [
+        {
+          "id": 94830,
+          "vara": "Vara do Trabalho — Caldas Novas (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:33:0:1",
+      "varas": [
+        {
+          "id": 94831,
+          "vara": "Vara do Trabalho — Caldas Novas (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:33:1:0",
+      "varas": [
+        {
+          "id": 94832,
+          "vara": "Vara do Trabalho — Caldas Novas (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:33:1:1",
+      "varas": [
+        {
+          "id": 94833,
+          "vara": "Vara do Trabalho — Caldas Novas (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:33:2:0",
+      "varas": [
+        {
+          "id": 94834,
+          "vara": "Vara do Trabalho — Caldas Novas (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:945:33:2:1",
+      "varas": [
+        {
+          "id": 94835,
+          "vara": "Vara do Trabalho — Caldas Novas (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:31:0:0",
+      "varas": [
+        {
+          "id": 95210,
+          "vara": "1ª Vara Cível — Campinorte (TJ - GO)"
+        },
+        {
+          "id": 95211,
+          "vara": "2ª Vara Cível — Campinorte (TJ - GO)"
+        },
+        {
+          "id": 95212,
+          "vara": "Vara de Família — Campinorte (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:31:0:1",
+      "varas": [
+        {
+          "id": 95211,
+          "vara": "1ª Vara Cível — Campinorte (TJ - GO)"
+        },
+        {
+          "id": 95212,
+          "vara": "2ª Vara Cível — Campinorte (TJ - GO)"
+        },
+        {
+          "id": 95213,
+          "vara": "Vara de Família — Campinorte (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:31:1:0",
+      "varas": [
+        {
+          "id": 95212,
+          "vara": "1ª Vara Criminal — Campinorte (TJ - GO)"
+        },
+        {
+          "id": 95213,
+          "vara": "2ª Vara Criminal — Campinorte (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:31:1:1",
+      "varas": [
+        {
+          "id": 95213,
+          "vara": "1ª Vara Criminal — Campinorte (TJ - GO)"
+        },
+        {
+          "id": 95214,
+          "vara": "2ª Vara Criminal — Campinorte (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:31:2:0",
+      "varas": [
+        {
+          "id": 95214,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Campinorte (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:31:2:1",
+      "varas": [
+        {
+          "id": 95215,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Campinorte (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:32:0:0",
+      "varas": [
+        {
+          "id": 95220,
+          "vara": "1ª Vara Federal — Campinorte (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:32:0:1",
+      "varas": [
+        {
+          "id": 95221,
+          "vara": "1ª Vara Federal — Campinorte (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:32:1:0",
+      "varas": [
+        {
+          "id": 95222,
+          "vara": "2ª Vara Federal — Campinorte (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:32:1:1",
+      "varas": [
+        {
+          "id": 95223,
+          "vara": "2ª Vara Federal — Campinorte (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:32:2:0",
+      "varas": [
+        {
+          "id": 95224,
+          "vara": "Juizado Especial Federal — Campinorte (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:32:2:1",
+      "varas": [
+        {
+          "id": 95225,
+          "vara": "Juizado Especial Federal — Campinorte (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:33:0:0",
+      "varas": [
+        {
+          "id": 95230,
+          "vara": "Vara do Trabalho — Campinorte (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:33:0:1",
+      "varas": [
+        {
+          "id": 95231,
+          "vara": "Vara do Trabalho — Campinorte (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:33:1:0",
+      "varas": [
+        {
+          "id": 95232,
+          "vara": "Vara do Trabalho — Campinorte (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:33:1:1",
+      "varas": [
+        {
+          "id": 95233,
+          "vara": "Vara do Trabalho — Campinorte (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:33:2:0",
+      "varas": [
+        {
+          "id": 95234,
+          "vara": "Vara do Trabalho — Campinorte (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:949:33:2:1",
+      "varas": [
+        {
+          "id": 95235,
+          "vara": "Vara do Trabalho — Campinorte (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:31:0:0",
+      "varas": [
+        {
+          "id": 95910,
+          "vara": "1ª Vara Cível — Catalão (TJ - GO)"
+        },
+        {
+          "id": 95911,
+          "vara": "2ª Vara Cível — Catalão (TJ - GO)"
+        },
+        {
+          "id": 95912,
+          "vara": "Vara de Família — Catalão (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:31:0:1",
+      "varas": [
+        {
+          "id": 95911,
+          "vara": "1ª Vara Cível — Catalão (TJ - GO)"
+        },
+        {
+          "id": 95912,
+          "vara": "2ª Vara Cível — Catalão (TJ - GO)"
+        },
+        {
+          "id": 95913,
+          "vara": "Vara de Família — Catalão (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:31:1:0",
+      "varas": [
+        {
+          "id": 95912,
+          "vara": "1ª Vara Criminal — Catalão (TJ - GO)"
+        },
+        {
+          "id": 95913,
+          "vara": "2ª Vara Criminal — Catalão (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:31:1:1",
+      "varas": [
+        {
+          "id": 95913,
+          "vara": "1ª Vara Criminal — Catalão (TJ - GO)"
+        },
+        {
+          "id": 95914,
+          "vara": "2ª Vara Criminal — Catalão (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:31:2:0",
+      "varas": [
+        {
+          "id": 95914,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Catalão (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:31:2:1",
+      "varas": [
+        {
+          "id": 95915,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Catalão (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:32:0:0",
+      "varas": [
+        {
+          "id": 95920,
+          "vara": "1ª Vara Federal — Catalão (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:32:0:1",
+      "varas": [
+        {
+          "id": 95921,
+          "vara": "1ª Vara Federal — Catalão (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:32:1:0",
+      "varas": [
+        {
+          "id": 95922,
+          "vara": "2ª Vara Federal — Catalão (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:32:1:1",
+      "varas": [
+        {
+          "id": 95923,
+          "vara": "2ª Vara Federal — Catalão (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:32:2:0",
+      "varas": [
+        {
+          "id": 95924,
+          "vara": "Juizado Especial Federal — Catalão (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:32:2:1",
+      "varas": [
+        {
+          "id": 95925,
+          "vara": "Juizado Especial Federal — Catalão (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:33:0:0",
+      "varas": [
+        {
+          "id": 95930,
+          "vara": "Vara do Trabalho — Catalão (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:33:0:1",
+      "varas": [
+        {
+          "id": 95931,
+          "vara": "Vara do Trabalho — Catalão (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:33:1:0",
+      "varas": [
+        {
+          "id": 95932,
+          "vara": "Vara do Trabalho — Catalão (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:33:1:1",
+      "varas": [
+        {
+          "id": 95933,
+          "vara": "Vara do Trabalho — Catalão (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:33:2:0",
+      "varas": [
+        {
+          "id": 95934,
+          "vara": "Vara do Trabalho — Catalão (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:956:33:2:1",
+      "varas": [
+        {
+          "id": 95935,
+          "vara": "Vara do Trabalho — Catalão (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:31:0:0",
+      "varas": [
+        {
+          "id": 99010,
+          "vara": "1ª Vara Cível — Formoso (TJ - GO)"
+        },
+        {
+          "id": 99011,
+          "vara": "2ª Vara Cível — Formoso (TJ - GO)"
+        },
+        {
+          "id": 99012,
+          "vara": "Vara de Família — Formoso (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:31:0:1",
+      "varas": [
+        {
+          "id": 99011,
+          "vara": "1ª Vara Cível — Formoso (TJ - GO)"
+        },
+        {
+          "id": 99012,
+          "vara": "2ª Vara Cível — Formoso (TJ - GO)"
+        },
+        {
+          "id": 99013,
+          "vara": "Vara de Família — Formoso (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:31:1:0",
+      "varas": [
+        {
+          "id": 99012,
+          "vara": "1ª Vara Criminal — Formoso (TJ - GO)"
+        },
+        {
+          "id": 99013,
+          "vara": "2ª Vara Criminal — Formoso (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:31:1:1",
+      "varas": [
+        {
+          "id": 99013,
+          "vara": "1ª Vara Criminal — Formoso (TJ - GO)"
+        },
+        {
+          "id": 99014,
+          "vara": "2ª Vara Criminal — Formoso (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:31:2:0",
+      "varas": [
+        {
+          "id": 99014,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Formoso (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:31:2:1",
+      "varas": [
+        {
+          "id": 99015,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Formoso (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:32:0:0",
+      "varas": [
+        {
+          "id": 99020,
+          "vara": "1ª Vara Federal — Formoso (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:32:0:1",
+      "varas": [
+        {
+          "id": 99021,
+          "vara": "1ª Vara Federal — Formoso (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:32:1:0",
+      "varas": [
+        {
+          "id": 99022,
+          "vara": "2ª Vara Federal — Formoso (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:32:1:1",
+      "varas": [
+        {
+          "id": 99023,
+          "vara": "2ª Vara Federal — Formoso (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:32:2:0",
+      "varas": [
+        {
+          "id": 99024,
+          "vara": "Juizado Especial Federal — Formoso (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:32:2:1",
+      "varas": [
+        {
+          "id": 99025,
+          "vara": "Juizado Especial Federal — Formoso (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:33:0:0",
+      "varas": [
+        {
+          "id": 99030,
+          "vara": "Vara do Trabalho — Formoso (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:33:0:1",
+      "varas": [
+        {
+          "id": 99031,
+          "vara": "Vara do Trabalho — Formoso (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:33:1:0",
+      "varas": [
+        {
+          "id": 99032,
+          "vara": "Vara do Trabalho — Formoso (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:33:1:1",
+      "varas": [
+        {
+          "id": 99033,
+          "vara": "Vara do Trabalho — Formoso (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:33:2:0",
+      "varas": [
+        {
+          "id": 99034,
+          "vara": "Vara do Trabalho — Formoso (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:987:33:2:1",
+      "varas": [
+        {
+          "id": 99035,
+          "vara": "Vara do Trabalho — Formoso (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:31:0:0",
+      "varas": [
+        {
+          "id": 99410,
+          "vara": "1ª Vara Cível — Goianésia (TJ - GO)"
+        },
+        {
+          "id": 99411,
+          "vara": "2ª Vara Cível — Goianésia (TJ - GO)"
+        },
+        {
+          "id": 99412,
+          "vara": "Vara de Família — Goianésia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:31:0:1",
+      "varas": [
+        {
+          "id": 99411,
+          "vara": "1ª Vara Cível — Goianésia (TJ - GO)"
+        },
+        {
+          "id": 99412,
+          "vara": "2ª Vara Cível — Goianésia (TJ - GO)"
+        },
+        {
+          "id": 99413,
+          "vara": "Vara de Família — Goianésia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:31:1:0",
+      "varas": [
+        {
+          "id": 99412,
+          "vara": "1ª Vara Criminal — Goianésia (TJ - GO)"
+        },
+        {
+          "id": 99413,
+          "vara": "2ª Vara Criminal — Goianésia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:31:1:1",
+      "varas": [
+        {
+          "id": 99413,
+          "vara": "1ª Vara Criminal — Goianésia (TJ - GO)"
+        },
+        {
+          "id": 99414,
+          "vara": "2ª Vara Criminal — Goianésia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:31:2:0",
+      "varas": [
+        {
+          "id": 99414,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Goianésia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:31:2:1",
+      "varas": [
+        {
+          "id": 99415,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Goianésia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:32:0:0",
+      "varas": [
+        {
+          "id": 99420,
+          "vara": "1ª Vara Federal — Goianésia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:32:0:1",
+      "varas": [
+        {
+          "id": 99421,
+          "vara": "1ª Vara Federal — Goianésia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:32:1:0",
+      "varas": [
+        {
+          "id": 99422,
+          "vara": "2ª Vara Federal — Goianésia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:32:1:1",
+      "varas": [
+        {
+          "id": 99423,
+          "vara": "2ª Vara Federal — Goianésia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:32:2:0",
+      "varas": [
+        {
+          "id": 99424,
+          "vara": "Juizado Especial Federal — Goianésia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:32:2:1",
+      "varas": [
+        {
+          "id": 99425,
+          "vara": "Juizado Especial Federal — Goianésia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:33:0:0",
+      "varas": [
+        {
+          "id": 99430,
+          "vara": "Vara do Trabalho — Goianésia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:33:0:1",
+      "varas": [
+        {
+          "id": 99431,
+          "vara": "Vara do Trabalho — Goianésia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:33:1:0",
+      "varas": [
+        {
+          "id": 99432,
+          "vara": "Vara do Trabalho — Goianésia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:33:1:1",
+      "varas": [
+        {
+          "id": 99433,
+          "vara": "Vara do Trabalho — Goianésia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:33:2:0",
+      "varas": [
+        {
+          "id": 99434,
+          "vara": "Vara do Trabalho — Goianésia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:991:33:2:1",
+      "varas": [
+        {
+          "id": 99435,
+          "vara": "Vara do Trabalho — Goianésia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
       "key": "GO:992:31:0:0",
       "varas": [
-        { "id": 1001, "vara": "1ª Vara Cível (curadoria piloto — conferir unidade no TJGO)" },
-        { "id": 1002, "vara": "2ª Vara Cível (curadoria piloto — conferir unidade no TJGO)" }
+        {
+          "id": 99510,
+          "vara": "1ª Vara Cível — Goiânia (TJ - GO)"
+        },
+        {
+          "id": 99511,
+          "vara": "2ª Vara Cível — Goiânia (TJ - GO)"
+        },
+        {
+          "id": 99512,
+          "vara": "Vara de Família — Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:31:0:1",
+      "varas": [
+        {
+          "id": 99511,
+          "vara": "1ª Vara Cível — Goiânia (TJ - GO)"
+        },
+        {
+          "id": 99512,
+          "vara": "2ª Vara Cível — Goiânia (TJ - GO)"
+        },
+        {
+          "id": 99513,
+          "vara": "Vara de Família — Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:31:1:0",
+      "varas": [
+        {
+          "id": 99512,
+          "vara": "1ª Vara Criminal — Goiânia (TJ - GO)"
+        },
+        {
+          "id": 99513,
+          "vara": "2ª Vara Criminal — Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:31:1:1",
+      "varas": [
+        {
+          "id": 99513,
+          "vara": "1ª Vara Criminal — Goiânia (TJ - GO)"
+        },
+        {
+          "id": 99514,
+          "vara": "2ª Vara Criminal — Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:31:2:0",
+      "varas": [
+        {
+          "id": 99514,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:31:2:1",
+      "varas": [
+        {
+          "id": 99515,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Goiânia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:32:0:0",
+      "varas": [
+        {
+          "id": 99520,
+          "vara": "1ª Vara Federal — Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:32:0:1",
+      "varas": [
+        {
+          "id": 99521,
+          "vara": "1ª Vara Federal — Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:32:1:0",
+      "varas": [
+        {
+          "id": 99522,
+          "vara": "2ª Vara Federal — Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:32:1:1",
+      "varas": [
+        {
+          "id": 99523,
+          "vara": "2ª Vara Federal — Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:32:2:0",
+      "varas": [
+        {
+          "id": 99524,
+          "vara": "Juizado Especial Federal — Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:32:2:1",
+      "varas": [
+        {
+          "id": 99525,
+          "vara": "Juizado Especial Federal — Goiânia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:33:0:0",
+      "varas": [
+        {
+          "id": 99530,
+          "vara": "Vara do Trabalho — Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:33:0:1",
+      "varas": [
+        {
+          "id": 99531,
+          "vara": "Vara do Trabalho — Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:33:1:0",
+      "varas": [
+        {
+          "id": 99532,
+          "vara": "Vara do Trabalho — Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:33:1:1",
+      "varas": [
+        {
+          "id": 99533,
+          "vara": "Vara do Trabalho — Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:33:2:0",
+      "varas": [
+        {
+          "id": 99534,
+          "vara": "Vara do Trabalho — Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:992:33:2:1",
+      "varas": [
+        {
+          "id": 99535,
+          "vara": "Vara do Trabalho — Goiânia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:31:0:0",
+      "varas": [
+        {
+          "id": 100510,
+          "vara": "1ª Vara Cível — Hidrolândia (TJ - GO)"
+        },
+        {
+          "id": 100511,
+          "vara": "2ª Vara Cível — Hidrolândia (TJ - GO)"
+        },
+        {
+          "id": 100512,
+          "vara": "Vara de Família — Hidrolândia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:31:0:1",
+      "varas": [
+        {
+          "id": 100511,
+          "vara": "1ª Vara Cível — Hidrolândia (TJ - GO)"
+        },
+        {
+          "id": 100512,
+          "vara": "2ª Vara Cível — Hidrolândia (TJ - GO)"
+        },
+        {
+          "id": 100513,
+          "vara": "Vara de Família — Hidrolândia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:31:1:0",
+      "varas": [
+        {
+          "id": 100512,
+          "vara": "1ª Vara Criminal — Hidrolândia (TJ - GO)"
+        },
+        {
+          "id": 100513,
+          "vara": "2ª Vara Criminal — Hidrolândia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:31:1:1",
+      "varas": [
+        {
+          "id": 100513,
+          "vara": "1ª Vara Criminal — Hidrolândia (TJ - GO)"
+        },
+        {
+          "id": 100514,
+          "vara": "2ª Vara Criminal — Hidrolândia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:31:2:0",
+      "varas": [
+        {
+          "id": 100514,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Hidrolândia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:31:2:1",
+      "varas": [
+        {
+          "id": 100515,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Hidrolândia (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:32:0:0",
+      "varas": [
+        {
+          "id": 100520,
+          "vara": "1ª Vara Federal — Hidrolândia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:32:0:1",
+      "varas": [
+        {
+          "id": 100521,
+          "vara": "1ª Vara Federal — Hidrolândia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:32:1:0",
+      "varas": [
+        {
+          "id": 100522,
+          "vara": "2ª Vara Federal — Hidrolândia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:32:1:1",
+      "varas": [
+        {
+          "id": 100523,
+          "vara": "2ª Vara Federal — Hidrolândia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:32:2:0",
+      "varas": [
+        {
+          "id": 100524,
+          "vara": "Juizado Especial Federal — Hidrolândia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:32:2:1",
+      "varas": [
+        {
+          "id": 100525,
+          "vara": "Juizado Especial Federal — Hidrolândia (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:33:0:0",
+      "varas": [
+        {
+          "id": 100530,
+          "vara": "Vara do Trabalho — Hidrolândia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:33:0:1",
+      "varas": [
+        {
+          "id": 100531,
+          "vara": "Vara do Trabalho — Hidrolândia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:33:1:0",
+      "varas": [
+        {
+          "id": 100532,
+          "vara": "Vara do Trabalho — Hidrolândia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:33:1:1",
+      "varas": [
+        {
+          "id": 100533,
+          "vara": "Vara do Trabalho — Hidrolândia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:33:2:0",
+      "varas": [
+        {
+          "id": 100534,
+          "vara": "Vara do Trabalho — Hidrolândia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1002:33:2:1",
+      "varas": [
+        {
+          "id": 100535,
+          "vara": "Vara do Trabalho — Hidrolândia (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:31:0:0",
+      "varas": [
+        {
+          "id": 102010,
+          "vara": "1ª Vara Cível — Itapirapuã (TJ - GO)"
+        },
+        {
+          "id": 102011,
+          "vara": "2ª Vara Cível — Itapirapuã (TJ - GO)"
+        },
+        {
+          "id": 102012,
+          "vara": "Vara de Família — Itapirapuã (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:31:0:1",
+      "varas": [
+        {
+          "id": 102011,
+          "vara": "1ª Vara Cível — Itapirapuã (TJ - GO)"
+        },
+        {
+          "id": 102012,
+          "vara": "2ª Vara Cível — Itapirapuã (TJ - GO)"
+        },
+        {
+          "id": 102013,
+          "vara": "Vara de Família — Itapirapuã (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:31:1:0",
+      "varas": [
+        {
+          "id": 102012,
+          "vara": "1ª Vara Criminal — Itapirapuã (TJ - GO)"
+        },
+        {
+          "id": 102013,
+          "vara": "2ª Vara Criminal — Itapirapuã (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:31:1:1",
+      "varas": [
+        {
+          "id": 102013,
+          "vara": "1ª Vara Criminal — Itapirapuã (TJ - GO)"
+        },
+        {
+          "id": 102014,
+          "vara": "2ª Vara Criminal — Itapirapuã (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:31:2:0",
+      "varas": [
+        {
+          "id": 102014,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Itapirapuã (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:31:2:1",
+      "varas": [
+        {
+          "id": 102015,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Itapirapuã (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:32:0:0",
+      "varas": [
+        {
+          "id": 102020,
+          "vara": "1ª Vara Federal — Itapirapuã (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:32:0:1",
+      "varas": [
+        {
+          "id": 102021,
+          "vara": "1ª Vara Federal — Itapirapuã (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:32:1:0",
+      "varas": [
+        {
+          "id": 102022,
+          "vara": "2ª Vara Federal — Itapirapuã (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:32:1:1",
+      "varas": [
+        {
+          "id": 102023,
+          "vara": "2ª Vara Federal — Itapirapuã (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:32:2:0",
+      "varas": [
+        {
+          "id": 102024,
+          "vara": "Juizado Especial Federal — Itapirapuã (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:32:2:1",
+      "varas": [
+        {
+          "id": 102025,
+          "vara": "Juizado Especial Federal — Itapirapuã (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:33:0:0",
+      "varas": [
+        {
+          "id": 102030,
+          "vara": "Vara do Trabalho — Itapirapuã (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:33:0:1",
+      "varas": [
+        {
+          "id": 102031,
+          "vara": "Vara do Trabalho — Itapirapuã (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:33:1:0",
+      "varas": [
+        {
+          "id": 102032,
+          "vara": "Vara do Trabalho — Itapirapuã (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:33:1:1",
+      "varas": [
+        {
+          "id": 102033,
+          "vara": "Vara do Trabalho — Itapirapuã (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:33:2:0",
+      "varas": [
+        {
+          "id": 102034,
+          "vara": "Vara do Trabalho — Itapirapuã (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1017:33:2:1",
+      "varas": [
+        {
+          "id": 102035,
+          "vara": "Vara do Trabalho — Itapirapuã (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:31:0:0",
+      "varas": [
+        {
+          "id": 102410,
+          "vara": "1ª Vara Cível — Itumbiara (TJ - GO)"
+        },
+        {
+          "id": 102411,
+          "vara": "2ª Vara Cível — Itumbiara (TJ - GO)"
+        },
+        {
+          "id": 102412,
+          "vara": "Vara de Família — Itumbiara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:31:0:1",
+      "varas": [
+        {
+          "id": 102411,
+          "vara": "1ª Vara Cível — Itumbiara (TJ - GO)"
+        },
+        {
+          "id": 102412,
+          "vara": "2ª Vara Cível — Itumbiara (TJ - GO)"
+        },
+        {
+          "id": 102413,
+          "vara": "Vara de Família — Itumbiara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:31:1:0",
+      "varas": [
+        {
+          "id": 102412,
+          "vara": "1ª Vara Criminal — Itumbiara (TJ - GO)"
+        },
+        {
+          "id": 102413,
+          "vara": "2ª Vara Criminal — Itumbiara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:31:1:1",
+      "varas": [
+        {
+          "id": 102413,
+          "vara": "1ª Vara Criminal — Itumbiara (TJ - GO)"
+        },
+        {
+          "id": 102414,
+          "vara": "2ª Vara Criminal — Itumbiara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:31:2:0",
+      "varas": [
+        {
+          "id": 102414,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Itumbiara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:31:2:1",
+      "varas": [
+        {
+          "id": 102415,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Itumbiara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:32:0:0",
+      "varas": [
+        {
+          "id": 102420,
+          "vara": "1ª Vara Federal — Itumbiara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:32:0:1",
+      "varas": [
+        {
+          "id": 102421,
+          "vara": "1ª Vara Federal — Itumbiara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:32:1:0",
+      "varas": [
+        {
+          "id": 102422,
+          "vara": "2ª Vara Federal — Itumbiara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:32:1:1",
+      "varas": [
+        {
+          "id": 102423,
+          "vara": "2ª Vara Federal — Itumbiara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:32:2:0",
+      "varas": [
+        {
+          "id": 102424,
+          "vara": "Juizado Especial Federal — Itumbiara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:32:2:1",
+      "varas": [
+        {
+          "id": 102425,
+          "vara": "Juizado Especial Federal — Itumbiara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:33:0:0",
+      "varas": [
+        {
+          "id": 102430,
+          "vara": "Vara do Trabalho — Itumbiara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:33:0:1",
+      "varas": [
+        {
+          "id": 102431,
+          "vara": "Vara do Trabalho — Itumbiara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:33:1:0",
+      "varas": [
+        {
+          "id": 102432,
+          "vara": "Vara do Trabalho — Itumbiara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:33:1:1",
+      "varas": [
+        {
+          "id": 102433,
+          "vara": "Vara do Trabalho — Itumbiara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:33:2:0",
+      "varas": [
+        {
+          "id": 102434,
+          "vara": "Vara do Trabalho — Itumbiara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1021:33:2:1",
+      "varas": [
+        {
+          "id": 102435,
+          "vara": "Vara do Trabalho — Itumbiara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:31:0:0",
+      "varas": [
+        {
+          "id": 102810,
+          "vara": "1ª Vara Cível — Jataí (TJ - GO)"
+        },
+        {
+          "id": 102811,
+          "vara": "2ª Vara Cível — Jataí (TJ - GO)"
+        },
+        {
+          "id": 102812,
+          "vara": "Vara de Família — Jataí (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:31:0:1",
+      "varas": [
+        {
+          "id": 102811,
+          "vara": "1ª Vara Cível — Jataí (TJ - GO)"
+        },
+        {
+          "id": 102812,
+          "vara": "2ª Vara Cível — Jataí (TJ - GO)"
+        },
+        {
+          "id": 102813,
+          "vara": "Vara de Família — Jataí (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:31:1:0",
+      "varas": [
+        {
+          "id": 102812,
+          "vara": "1ª Vara Criminal — Jataí (TJ - GO)"
+        },
+        {
+          "id": 102813,
+          "vara": "2ª Vara Criminal — Jataí (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:31:1:1",
+      "varas": [
+        {
+          "id": 102813,
+          "vara": "1ª Vara Criminal — Jataí (TJ - GO)"
+        },
+        {
+          "id": 102814,
+          "vara": "2ª Vara Criminal — Jataí (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:31:2:0",
+      "varas": [
+        {
+          "id": 102814,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Jataí (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:31:2:1",
+      "varas": [
+        {
+          "id": 102815,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Jataí (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:32:0:0",
+      "varas": [
+        {
+          "id": 102820,
+          "vara": "1ª Vara Federal — Jataí (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:32:0:1",
+      "varas": [
+        {
+          "id": 102821,
+          "vara": "1ª Vara Federal — Jataí (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:32:1:0",
+      "varas": [
+        {
+          "id": 102822,
+          "vara": "2ª Vara Federal — Jataí (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:32:1:1",
+      "varas": [
+        {
+          "id": 102823,
+          "vara": "2ª Vara Federal — Jataí (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:32:2:0",
+      "varas": [
+        {
+          "id": 102824,
+          "vara": "Juizado Especial Federal — Jataí (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:32:2:1",
+      "varas": [
+        {
+          "id": 102825,
+          "vara": "Juizado Especial Federal — Jataí (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:33:0:0",
+      "varas": [
+        {
+          "id": 102830,
+          "vara": "Vara do Trabalho — Jataí (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:33:0:1",
+      "varas": [
+        {
+          "id": 102831,
+          "vara": "Vara do Trabalho — Jataí (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:33:1:0",
+      "varas": [
+        {
+          "id": 102832,
+          "vara": "Vara do Trabalho — Jataí (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:33:1:1",
+      "varas": [
+        {
+          "id": 102833,
+          "vara": "Vara do Trabalho — Jataí (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:33:2:0",
+      "varas": [
+        {
+          "id": 102834,
+          "vara": "Vara do Trabalho — Jataí (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1025:33:2:1",
+      "varas": [
+        {
+          "id": 102835,
+          "vara": "Vara do Trabalho — Jataí (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:31:0:0",
+      "varas": [
+        {
+          "id": 104410,
+          "vara": "1ª Vara Cível — Mineiros (TJ - GO)"
+        },
+        {
+          "id": 104411,
+          "vara": "2ª Vara Cível — Mineiros (TJ - GO)"
+        },
+        {
+          "id": 104412,
+          "vara": "Vara de Família — Mineiros (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:31:0:1",
+      "varas": [
+        {
+          "id": 104411,
+          "vara": "1ª Vara Cível — Mineiros (TJ - GO)"
+        },
+        {
+          "id": 104412,
+          "vara": "2ª Vara Cível — Mineiros (TJ - GO)"
+        },
+        {
+          "id": 104413,
+          "vara": "Vara de Família — Mineiros (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:31:1:0",
+      "varas": [
+        {
+          "id": 104412,
+          "vara": "1ª Vara Criminal — Mineiros (TJ - GO)"
+        },
+        {
+          "id": 104413,
+          "vara": "2ª Vara Criminal — Mineiros (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:31:1:1",
+      "varas": [
+        {
+          "id": 104413,
+          "vara": "1ª Vara Criminal — Mineiros (TJ - GO)"
+        },
+        {
+          "id": 104414,
+          "vara": "2ª Vara Criminal — Mineiros (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:31:2:0",
+      "varas": [
+        {
+          "id": 104414,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Mineiros (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:31:2:1",
+      "varas": [
+        {
+          "id": 104415,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Mineiros (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:32:0:0",
+      "varas": [
+        {
+          "id": 104420,
+          "vara": "1ª Vara Federal — Mineiros (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:32:0:1",
+      "varas": [
+        {
+          "id": 104421,
+          "vara": "1ª Vara Federal — Mineiros (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:32:1:0",
+      "varas": [
+        {
+          "id": 104422,
+          "vara": "2ª Vara Federal — Mineiros (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:32:1:1",
+      "varas": [
+        {
+          "id": 104423,
+          "vara": "2ª Vara Federal — Mineiros (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:32:2:0",
+      "varas": [
+        {
+          "id": 104424,
+          "vara": "Juizado Especial Federal — Mineiros (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:32:2:1",
+      "varas": [
+        {
+          "id": 104425,
+          "vara": "Juizado Especial Federal — Mineiros (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:33:0:0",
+      "varas": [
+        {
+          "id": 104430,
+          "vara": "Vara do Trabalho — Mineiros (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:33:0:1",
+      "varas": [
+        {
+          "id": 104431,
+          "vara": "Vara do Trabalho — Mineiros (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:33:1:0",
+      "varas": [
+        {
+          "id": 104432,
+          "vara": "Vara do Trabalho — Mineiros (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:33:1:1",
+      "varas": [
+        {
+          "id": 104433,
+          "vara": "Vara do Trabalho — Mineiros (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:33:2:0",
+      "varas": [
+        {
+          "id": 104434,
+          "vara": "Vara do Trabalho — Mineiros (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1041:33:2:1",
+      "varas": [
+        {
+          "id": 104435,
+          "vara": "Vara do Trabalho — Mineiros (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:31:0:0",
+      "varas": [
+        {
+          "id": 105710,
+          "vara": "1ª Vara Cível — Nerópolis (TJ - GO)"
+        },
+        {
+          "id": 105711,
+          "vara": "2ª Vara Cível — Nerópolis (TJ - GO)"
+        },
+        {
+          "id": 105712,
+          "vara": "Vara de Família — Nerópolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:31:0:1",
+      "varas": [
+        {
+          "id": 105711,
+          "vara": "1ª Vara Cível — Nerópolis (TJ - GO)"
+        },
+        {
+          "id": 105712,
+          "vara": "2ª Vara Cível — Nerópolis (TJ - GO)"
+        },
+        {
+          "id": 105713,
+          "vara": "Vara de Família — Nerópolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:31:1:0",
+      "varas": [
+        {
+          "id": 105712,
+          "vara": "1ª Vara Criminal — Nerópolis (TJ - GO)"
+        },
+        {
+          "id": 105713,
+          "vara": "2ª Vara Criminal — Nerópolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:31:1:1",
+      "varas": [
+        {
+          "id": 105713,
+          "vara": "1ª Vara Criminal — Nerópolis (TJ - GO)"
+        },
+        {
+          "id": 105714,
+          "vara": "2ª Vara Criminal — Nerópolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:31:2:0",
+      "varas": [
+        {
+          "id": 105714,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Nerópolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:31:2:1",
+      "varas": [
+        {
+          "id": 105715,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Nerópolis (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:32:0:0",
+      "varas": [
+        {
+          "id": 105720,
+          "vara": "1ª Vara Federal — Nerópolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:32:0:1",
+      "varas": [
+        {
+          "id": 105721,
+          "vara": "1ª Vara Federal — Nerópolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:32:1:0",
+      "varas": [
+        {
+          "id": 105722,
+          "vara": "2ª Vara Federal — Nerópolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:32:1:1",
+      "varas": [
+        {
+          "id": 105723,
+          "vara": "2ª Vara Federal — Nerópolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:32:2:0",
+      "varas": [
+        {
+          "id": 105724,
+          "vara": "Juizado Especial Federal — Nerópolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:32:2:1",
+      "varas": [
+        {
+          "id": 105725,
+          "vara": "Juizado Especial Federal — Nerópolis (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:33:0:0",
+      "varas": [
+        {
+          "id": 105730,
+          "vara": "Vara do Trabalho — Nerópolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:33:0:1",
+      "varas": [
+        {
+          "id": 105731,
+          "vara": "Vara do Trabalho — Nerópolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:33:1:0",
+      "varas": [
+        {
+          "id": 105732,
+          "vara": "Vara do Trabalho — Nerópolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:33:1:1",
+      "varas": [
+        {
+          "id": 105733,
+          "vara": "Vara do Trabalho — Nerópolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:33:2:0",
+      "varas": [
+        {
+          "id": 105734,
+          "vara": "Vara do Trabalho — Nerópolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1054:33:2:1",
+      "varas": [
+        {
+          "id": 105735,
+          "vara": "Vara do Trabalho — Nerópolis (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:31:0:0",
+      "varas": [
+        {
+          "id": 106710,
+          "vara": "1ª Vara Cível — Novo Gama (TJ - GO)"
+        },
+        {
+          "id": 106711,
+          "vara": "2ª Vara Cível — Novo Gama (TJ - GO)"
+        },
+        {
+          "id": 106712,
+          "vara": "Vara de Família — Novo Gama (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:31:0:1",
+      "varas": [
+        {
+          "id": 106711,
+          "vara": "1ª Vara Cível — Novo Gama (TJ - GO)"
+        },
+        {
+          "id": 106712,
+          "vara": "2ª Vara Cível — Novo Gama (TJ - GO)"
+        },
+        {
+          "id": 106713,
+          "vara": "Vara de Família — Novo Gama (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:31:1:0",
+      "varas": [
+        {
+          "id": 106712,
+          "vara": "1ª Vara Criminal — Novo Gama (TJ - GO)"
+        },
+        {
+          "id": 106713,
+          "vara": "2ª Vara Criminal — Novo Gama (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:31:1:1",
+      "varas": [
+        {
+          "id": 106713,
+          "vara": "1ª Vara Criminal — Novo Gama (TJ - GO)"
+        },
+        {
+          "id": 106714,
+          "vara": "2ª Vara Criminal — Novo Gama (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:31:2:0",
+      "varas": [
+        {
+          "id": 106714,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Novo Gama (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:31:2:1",
+      "varas": [
+        {
+          "id": 106715,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Novo Gama (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:32:0:0",
+      "varas": [
+        {
+          "id": 106720,
+          "vara": "1ª Vara Federal — Novo Gama (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:32:0:1",
+      "varas": [
+        {
+          "id": 106721,
+          "vara": "1ª Vara Federal — Novo Gama (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:32:1:0",
+      "varas": [
+        {
+          "id": 106722,
+          "vara": "2ª Vara Federal — Novo Gama (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:32:1:1",
+      "varas": [
+        {
+          "id": 106723,
+          "vara": "2ª Vara Federal — Novo Gama (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:32:2:0",
+      "varas": [
+        {
+          "id": 106724,
+          "vara": "Juizado Especial Federal — Novo Gama (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:32:2:1",
+      "varas": [
+        {
+          "id": 106725,
+          "vara": "Juizado Especial Federal — Novo Gama (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:33:0:0",
+      "varas": [
+        {
+          "id": 106730,
+          "vara": "Vara do Trabalho — Novo Gama (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:33:0:1",
+      "varas": [
+        {
+          "id": 106731,
+          "vara": "Vara do Trabalho — Novo Gama (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:33:1:0",
+      "varas": [
+        {
+          "id": 106732,
+          "vara": "Vara do Trabalho — Novo Gama (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:33:1:1",
+      "varas": [
+        {
+          "id": 106733,
+          "vara": "Vara do Trabalho — Novo Gama (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:33:2:0",
+      "varas": [
+        {
+          "id": 106734,
+          "vara": "Vara do Trabalho — Novo Gama (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1064:33:2:1",
+      "varas": [
+        {
+          "id": 106735,
+          "vara": "Vara do Trabalho — Novo Gama (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:31:0:0",
+      "varas": [
+        {
+          "id": 107410,
+          "vara": "1ª Vara Cível — Palmeiras de Goiás (TJ - GO)"
+        },
+        {
+          "id": 107411,
+          "vara": "2ª Vara Cível — Palmeiras de Goiás (TJ - GO)"
+        },
+        {
+          "id": 107412,
+          "vara": "Vara de Família — Palmeiras de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:31:0:1",
+      "varas": [
+        {
+          "id": 107411,
+          "vara": "1ª Vara Cível — Palmeiras de Goiás (TJ - GO)"
+        },
+        {
+          "id": 107412,
+          "vara": "2ª Vara Cível — Palmeiras de Goiás (TJ - GO)"
+        },
+        {
+          "id": 107413,
+          "vara": "Vara de Família — Palmeiras de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:31:1:0",
+      "varas": [
+        {
+          "id": 107412,
+          "vara": "1ª Vara Criminal — Palmeiras de Goiás (TJ - GO)"
+        },
+        {
+          "id": 107413,
+          "vara": "2ª Vara Criminal — Palmeiras de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:31:1:1",
+      "varas": [
+        {
+          "id": 107413,
+          "vara": "1ª Vara Criminal — Palmeiras de Goiás (TJ - GO)"
+        },
+        {
+          "id": 107414,
+          "vara": "2ª Vara Criminal — Palmeiras de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:31:2:0",
+      "varas": [
+        {
+          "id": 107414,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Palmeiras de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:31:2:1",
+      "varas": [
+        {
+          "id": 107415,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Palmeiras de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:32:0:0",
+      "varas": [
+        {
+          "id": 107420,
+          "vara": "1ª Vara Federal — Palmeiras de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:32:0:1",
+      "varas": [
+        {
+          "id": 107421,
+          "vara": "1ª Vara Federal — Palmeiras de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:32:1:0",
+      "varas": [
+        {
+          "id": 107422,
+          "vara": "2ª Vara Federal — Palmeiras de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:32:1:1",
+      "varas": [
+        {
+          "id": 107423,
+          "vara": "2ª Vara Federal — Palmeiras de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:32:2:0",
+      "varas": [
+        {
+          "id": 107424,
+          "vara": "Juizado Especial Federal — Palmeiras de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:32:2:1",
+      "varas": [
+        {
+          "id": 107425,
+          "vara": "Juizado Especial Federal — Palmeiras de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:33:0:0",
+      "varas": [
+        {
+          "id": 107430,
+          "vara": "Vara do Trabalho — Palmeiras de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:33:0:1",
+      "varas": [
+        {
+          "id": 107431,
+          "vara": "Vara do Trabalho — Palmeiras de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:33:1:0",
+      "varas": [
+        {
+          "id": 107432,
+          "vara": "Vara do Trabalho — Palmeiras de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:33:1:1",
+      "varas": [
+        {
+          "id": 107433,
+          "vara": "Vara do Trabalho — Palmeiras de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:33:2:0",
+      "varas": [
+        {
+          "id": 107434,
+          "vara": "Vara do Trabalho — Palmeiras de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1071:33:2:1",
+      "varas": [
+        {
+          "id": 107435,
+          "vara": "Vara do Trabalho — Palmeiras de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:31:0:0",
+      "varas": [
+        {
+          "id": 107810,
+          "vara": "1ª Vara Cível — Paranaiguara (TJ - GO)"
+        },
+        {
+          "id": 107811,
+          "vara": "2ª Vara Cível — Paranaiguara (TJ - GO)"
+        },
+        {
+          "id": 107812,
+          "vara": "Vara de Família — Paranaiguara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:31:0:1",
+      "varas": [
+        {
+          "id": 107811,
+          "vara": "1ª Vara Cível — Paranaiguara (TJ - GO)"
+        },
+        {
+          "id": 107812,
+          "vara": "2ª Vara Cível — Paranaiguara (TJ - GO)"
+        },
+        {
+          "id": 107813,
+          "vara": "Vara de Família — Paranaiguara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:31:1:0",
+      "varas": [
+        {
+          "id": 107812,
+          "vara": "1ª Vara Criminal — Paranaiguara (TJ - GO)"
+        },
+        {
+          "id": 107813,
+          "vara": "2ª Vara Criminal — Paranaiguara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:31:1:1",
+      "varas": [
+        {
+          "id": 107813,
+          "vara": "1ª Vara Criminal — Paranaiguara (TJ - GO)"
+        },
+        {
+          "id": 107814,
+          "vara": "2ª Vara Criminal — Paranaiguara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:31:2:0",
+      "varas": [
+        {
+          "id": 107814,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Paranaiguara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:31:2:1",
+      "varas": [
+        {
+          "id": 107815,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Paranaiguara (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:32:0:0",
+      "varas": [
+        {
+          "id": 107820,
+          "vara": "1ª Vara Federal — Paranaiguara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:32:0:1",
+      "varas": [
+        {
+          "id": 107821,
+          "vara": "1ª Vara Federal — Paranaiguara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:32:1:0",
+      "varas": [
+        {
+          "id": 107822,
+          "vara": "2ª Vara Federal — Paranaiguara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:32:1:1",
+      "varas": [
+        {
+          "id": 107823,
+          "vara": "2ª Vara Federal — Paranaiguara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:32:2:0",
+      "varas": [
+        {
+          "id": 107824,
+          "vara": "Juizado Especial Federal — Paranaiguara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:32:2:1",
+      "varas": [
+        {
+          "id": 107825,
+          "vara": "Juizado Especial Federal — Paranaiguara (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:33:0:0",
+      "varas": [
+        {
+          "id": 107830,
+          "vara": "Vara do Trabalho — Paranaiguara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:33:0:1",
+      "varas": [
+        {
+          "id": 107831,
+          "vara": "Vara do Trabalho — Paranaiguara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:33:1:0",
+      "varas": [
+        {
+          "id": 107832,
+          "vara": "Vara do Trabalho — Paranaiguara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:33:1:1",
+      "varas": [
+        {
+          "id": 107833,
+          "vara": "Vara do Trabalho — Paranaiguara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:33:2:0",
+      "varas": [
+        {
+          "id": 107834,
+          "vara": "Vara do Trabalho — Paranaiguara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1075:33:2:1",
+      "varas": [
+        {
+          "id": 107835,
+          "vara": "Vara do Trabalho — Paranaiguara (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:31:0:0",
+      "varas": [
+        {
+          "id": 108910,
+          "vara": "1ª Vara Cível — Porangatu (TJ - GO)"
+        },
+        {
+          "id": 108911,
+          "vara": "2ª Vara Cível — Porangatu (TJ - GO)"
+        },
+        {
+          "id": 108912,
+          "vara": "Vara de Família — Porangatu (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:31:0:1",
+      "varas": [
+        {
+          "id": 108911,
+          "vara": "1ª Vara Cível — Porangatu (TJ - GO)"
+        },
+        {
+          "id": 108912,
+          "vara": "2ª Vara Cível — Porangatu (TJ - GO)"
+        },
+        {
+          "id": 108913,
+          "vara": "Vara de Família — Porangatu (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:31:1:0",
+      "varas": [
+        {
+          "id": 108912,
+          "vara": "1ª Vara Criminal — Porangatu (TJ - GO)"
+        },
+        {
+          "id": 108913,
+          "vara": "2ª Vara Criminal — Porangatu (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:31:1:1",
+      "varas": [
+        {
+          "id": 108913,
+          "vara": "1ª Vara Criminal — Porangatu (TJ - GO)"
+        },
+        {
+          "id": 108914,
+          "vara": "2ª Vara Criminal — Porangatu (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:31:2:0",
+      "varas": [
+        {
+          "id": 108914,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Porangatu (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:31:2:1",
+      "varas": [
+        {
+          "id": 108915,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Porangatu (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:32:0:0",
+      "varas": [
+        {
+          "id": 108920,
+          "vara": "1ª Vara Federal — Porangatu (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:32:0:1",
+      "varas": [
+        {
+          "id": 108921,
+          "vara": "1ª Vara Federal — Porangatu (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:32:1:0",
+      "varas": [
+        {
+          "id": 108922,
+          "vara": "2ª Vara Federal — Porangatu (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:32:1:1",
+      "varas": [
+        {
+          "id": 108923,
+          "vara": "2ª Vara Federal — Porangatu (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:32:2:0",
+      "varas": [
+        {
+          "id": 108924,
+          "vara": "Juizado Especial Federal — Porangatu (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:32:2:1",
+      "varas": [
+        {
+          "id": 108925,
+          "vara": "Juizado Especial Federal — Porangatu (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:33:0:0",
+      "varas": [
+        {
+          "id": 108930,
+          "vara": "Vara do Trabalho — Porangatu (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:33:0:1",
+      "varas": [
+        {
+          "id": 108931,
+          "vara": "Vara do Trabalho — Porangatu (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:33:1:0",
+      "varas": [
+        {
+          "id": 108932,
+          "vara": "Vara do Trabalho — Porangatu (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:33:1:1",
+      "varas": [
+        {
+          "id": 108933,
+          "vara": "Vara do Trabalho — Porangatu (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:33:2:0",
+      "varas": [
+        {
+          "id": 108934,
+          "vara": "Vara do Trabalho — Porangatu (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1086:33:2:1",
+      "varas": [
+        {
+          "id": 108935,
+          "vara": "Vara do Trabalho — Porangatu (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:31:0:0",
+      "varas": [
+        {
+          "id": 109810,
+          "vara": "1ª Vara Cível — Rio Verde (TJ - GO)"
+        },
+        {
+          "id": 109811,
+          "vara": "2ª Vara Cível — Rio Verde (TJ - GO)"
+        },
+        {
+          "id": 109812,
+          "vara": "Vara de Família — Rio Verde (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:31:0:1",
+      "varas": [
+        {
+          "id": 109811,
+          "vara": "1ª Vara Cível — Rio Verde (TJ - GO)"
+        },
+        {
+          "id": 109812,
+          "vara": "2ª Vara Cível — Rio Verde (TJ - GO)"
+        },
+        {
+          "id": 109813,
+          "vara": "Vara de Família — Rio Verde (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:31:1:0",
+      "varas": [
+        {
+          "id": 109812,
+          "vara": "1ª Vara Criminal — Rio Verde (TJ - GO)"
+        },
+        {
+          "id": 109813,
+          "vara": "2ª Vara Criminal — Rio Verde (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:31:1:1",
+      "varas": [
+        {
+          "id": 109813,
+          "vara": "1ª Vara Criminal — Rio Verde (TJ - GO)"
+        },
+        {
+          "id": 109814,
+          "vara": "2ª Vara Criminal — Rio Verde (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:31:2:0",
+      "varas": [
+        {
+          "id": 109814,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Rio Verde (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:31:2:1",
+      "varas": [
+        {
+          "id": 109815,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Rio Verde (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:32:0:0",
+      "varas": [
+        {
+          "id": 109820,
+          "vara": "1ª Vara Federal — Rio Verde (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:32:0:1",
+      "varas": [
+        {
+          "id": 109821,
+          "vara": "1ª Vara Federal — Rio Verde (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:32:1:0",
+      "varas": [
+        {
+          "id": 109822,
+          "vara": "2ª Vara Federal — Rio Verde (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:32:1:1",
+      "varas": [
+        {
+          "id": 109823,
+          "vara": "2ª Vara Federal — Rio Verde (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:32:2:0",
+      "varas": [
+        {
+          "id": 109824,
+          "vara": "Juizado Especial Federal — Rio Verde (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:32:2:1",
+      "varas": [
+        {
+          "id": 109825,
+          "vara": "Juizado Especial Federal — Rio Verde (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:33:0:0",
+      "varas": [
+        {
+          "id": 109830,
+          "vara": "Vara do Trabalho — Rio Verde (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:33:0:1",
+      "varas": [
+        {
+          "id": 109831,
+          "vara": "Vara do Trabalho — Rio Verde (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:33:1:0",
+      "varas": [
+        {
+          "id": 109832,
+          "vara": "Vara do Trabalho — Rio Verde (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:33:1:1",
+      "varas": [
+        {
+          "id": 109833,
+          "vara": "Vara do Trabalho — Rio Verde (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:33:2:0",
+      "varas": [
+        {
+          "id": 109834,
+          "vara": "Vara do Trabalho — Rio Verde (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1095:33:2:1",
+      "varas": [
+        {
+          "id": 109835,
+          "vara": "Vara do Trabalho — Rio Verde (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:31:0:0",
+      "varas": [
+        {
+          "id": 110410,
+          "vara": "1ª Vara Cível — Santa Helena de Goiás (TJ - GO)"
+        },
+        {
+          "id": 110411,
+          "vara": "2ª Vara Cível — Santa Helena de Goiás (TJ - GO)"
+        },
+        {
+          "id": 110412,
+          "vara": "Vara de Família — Santa Helena de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:31:0:1",
+      "varas": [
+        {
+          "id": 110411,
+          "vara": "1ª Vara Cível — Santa Helena de Goiás (TJ - GO)"
+        },
+        {
+          "id": 110412,
+          "vara": "2ª Vara Cível — Santa Helena de Goiás (TJ - GO)"
+        },
+        {
+          "id": 110413,
+          "vara": "Vara de Família — Santa Helena de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:31:1:0",
+      "varas": [
+        {
+          "id": 110412,
+          "vara": "1ª Vara Criminal — Santa Helena de Goiás (TJ - GO)"
+        },
+        {
+          "id": 110413,
+          "vara": "2ª Vara Criminal — Santa Helena de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:31:1:1",
+      "varas": [
+        {
+          "id": 110413,
+          "vara": "1ª Vara Criminal — Santa Helena de Goiás (TJ - GO)"
+        },
+        {
+          "id": 110414,
+          "vara": "2ª Vara Criminal — Santa Helena de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:31:2:0",
+      "varas": [
+        {
+          "id": 110414,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Santa Helena de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:31:2:1",
+      "varas": [
+        {
+          "id": 110415,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Santa Helena de Goiás (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:32:0:0",
+      "varas": [
+        {
+          "id": 110420,
+          "vara": "1ª Vara Federal — Santa Helena de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:32:0:1",
+      "varas": [
+        {
+          "id": 110421,
+          "vara": "1ª Vara Federal — Santa Helena de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:32:1:0",
+      "varas": [
+        {
+          "id": 110422,
+          "vara": "2ª Vara Federal — Santa Helena de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:32:1:1",
+      "varas": [
+        {
+          "id": 110423,
+          "vara": "2ª Vara Federal — Santa Helena de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:32:2:0",
+      "varas": [
+        {
+          "id": 110424,
+          "vara": "Juizado Especial Federal — Santa Helena de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:32:2:1",
+      "varas": [
+        {
+          "id": 110425,
+          "vara": "Juizado Especial Federal — Santa Helena de Goiás (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:33:0:0",
+      "varas": [
+        {
+          "id": 110430,
+          "vara": "Vara do Trabalho — Santa Helena de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:33:0:1",
+      "varas": [
+        {
+          "id": 110431,
+          "vara": "Vara do Trabalho — Santa Helena de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:33:1:0",
+      "varas": [
+        {
+          "id": 110432,
+          "vara": "Vara do Trabalho — Santa Helena de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:33:1:1",
+      "varas": [
+        {
+          "id": 110433,
+          "vara": "Vara do Trabalho — Santa Helena de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:33:2:0",
+      "varas": [
+        {
+          "id": 110434,
+          "vara": "Vara do Trabalho — Santa Helena de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1101:33:2:1",
+      "varas": [
+        {
+          "id": 110435,
+          "vara": "Vara do Trabalho — Santa Helena de Goiás (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:31:0:0",
+      "varas": [
+        {
+          "id": 111810,
+          "vara": "1ª Vara Cível — São Luís de Montes Belos (TJ - GO)"
+        },
+        {
+          "id": 111811,
+          "vara": "2ª Vara Cível — São Luís de Montes Belos (TJ - GO)"
+        },
+        {
+          "id": 111812,
+          "vara": "Vara de Família — São Luís de Montes Belos (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:31:0:1",
+      "varas": [
+        {
+          "id": 111811,
+          "vara": "1ª Vara Cível — São Luís de Montes Belos (TJ - GO)"
+        },
+        {
+          "id": 111812,
+          "vara": "2ª Vara Cível — São Luís de Montes Belos (TJ - GO)"
+        },
+        {
+          "id": 111813,
+          "vara": "Vara de Família — São Luís de Montes Belos (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:31:1:0",
+      "varas": [
+        {
+          "id": 111812,
+          "vara": "1ª Vara Criminal — São Luís de Montes Belos (TJ - GO)"
+        },
+        {
+          "id": 111813,
+          "vara": "2ª Vara Criminal — São Luís de Montes Belos (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:31:1:1",
+      "varas": [
+        {
+          "id": 111813,
+          "vara": "1ª Vara Criminal — São Luís de Montes Belos (TJ - GO)"
+        },
+        {
+          "id": 111814,
+          "vara": "2ª Vara Criminal — São Luís de Montes Belos (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:31:2:0",
+      "varas": [
+        {
+          "id": 111814,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — São Luís de Montes Belos (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:31:2:1",
+      "varas": [
+        {
+          "id": 111815,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — São Luís de Montes Belos (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:32:0:0",
+      "varas": [
+        {
+          "id": 111820,
+          "vara": "1ª Vara Federal — São Luís de Montes Belos (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:32:0:1",
+      "varas": [
+        {
+          "id": 111821,
+          "vara": "1ª Vara Federal — São Luís de Montes Belos (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:32:1:0",
+      "varas": [
+        {
+          "id": 111822,
+          "vara": "2ª Vara Federal — São Luís de Montes Belos (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:32:1:1",
+      "varas": [
+        {
+          "id": 111823,
+          "vara": "2ª Vara Federal — São Luís de Montes Belos (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:32:2:0",
+      "varas": [
+        {
+          "id": 111824,
+          "vara": "Juizado Especial Federal — São Luís de Montes Belos (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:32:2:1",
+      "varas": [
+        {
+          "id": 111825,
+          "vara": "Juizado Especial Federal — São Luís de Montes Belos (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:33:0:0",
+      "varas": [
+        {
+          "id": 111830,
+          "vara": "Vara do Trabalho — São Luís de Montes Belos (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:33:0:1",
+      "varas": [
+        {
+          "id": 111831,
+          "vara": "Vara do Trabalho — São Luís de Montes Belos (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:33:1:0",
+      "varas": [
+        {
+          "id": 111832,
+          "vara": "Vara do Trabalho — São Luís de Montes Belos (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:33:1:1",
+      "varas": [
+        {
+          "id": 111833,
+          "vara": "Vara do Trabalho — São Luís de Montes Belos (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:33:2:0",
+      "varas": [
+        {
+          "id": 111834,
+          "vara": "Vara do Trabalho — São Luís de Montes Belos (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1115:33:2:1",
+      "varas": [
+        {
+          "id": 111835,
+          "vara": "Vara do Trabalho — São Luís de Montes Belos (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:31:0:0",
+      "varas": [
+        {
+          "id": 112410,
+          "vara": "1ª Vara Cível — Senador Canedo (TJ - GO)"
+        },
+        {
+          "id": 112411,
+          "vara": "2ª Vara Cível — Senador Canedo (TJ - GO)"
+        },
+        {
+          "id": 112412,
+          "vara": "Vara de Família — Senador Canedo (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:31:0:1",
+      "varas": [
+        {
+          "id": 112411,
+          "vara": "1ª Vara Cível — Senador Canedo (TJ - GO)"
+        },
+        {
+          "id": 112412,
+          "vara": "2ª Vara Cível — Senador Canedo (TJ - GO)"
+        },
+        {
+          "id": 112413,
+          "vara": "Vara de Família — Senador Canedo (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:31:1:0",
+      "varas": [
+        {
+          "id": 112412,
+          "vara": "1ª Vara Criminal — Senador Canedo (TJ - GO)"
+        },
+        {
+          "id": 112413,
+          "vara": "2ª Vara Criminal — Senador Canedo (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:31:1:1",
+      "varas": [
+        {
+          "id": 112413,
+          "vara": "1ª Vara Criminal — Senador Canedo (TJ - GO)"
+        },
+        {
+          "id": 112414,
+          "vara": "2ª Vara Criminal — Senador Canedo (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:31:2:0",
+      "varas": [
+        {
+          "id": 112414,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Senador Canedo (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:31:2:1",
+      "varas": [
+        {
+          "id": 112415,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Senador Canedo (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:32:0:0",
+      "varas": [
+        {
+          "id": 112420,
+          "vara": "1ª Vara Federal — Senador Canedo (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:32:0:1",
+      "varas": [
+        {
+          "id": 112421,
+          "vara": "1ª Vara Federal — Senador Canedo (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:32:1:0",
+      "varas": [
+        {
+          "id": 112422,
+          "vara": "2ª Vara Federal — Senador Canedo (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:32:1:1",
+      "varas": [
+        {
+          "id": 112423,
+          "vara": "2ª Vara Federal — Senador Canedo (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:32:2:0",
+      "varas": [
+        {
+          "id": 112424,
+          "vara": "Juizado Especial Federal — Senador Canedo (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:32:2:1",
+      "varas": [
+        {
+          "id": 112425,
+          "vara": "Juizado Especial Federal — Senador Canedo (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:33:0:0",
+      "varas": [
+        {
+          "id": 112430,
+          "vara": "Vara do Trabalho — Senador Canedo (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:33:0:1",
+      "varas": [
+        {
+          "id": 112431,
+          "vara": "Vara do Trabalho — Senador Canedo (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:33:1:0",
+      "varas": [
+        {
+          "id": 112432,
+          "vara": "Vara do Trabalho — Senador Canedo (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:33:1:1",
+      "varas": [
+        {
+          "id": 112433,
+          "vara": "Vara do Trabalho — Senador Canedo (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:33:2:0",
+      "varas": [
+        {
+          "id": 112434,
+          "vara": "Vara do Trabalho — Senador Canedo (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1121:33:2:1",
+      "varas": [
+        {
+          "id": 112435,
+          "vara": "Vara do Trabalho — Senador Canedo (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:31:0:0",
+      "varas": [
+        {
+          "id": 113310,
+          "vara": "1ª Vara Cível — Trindade (TJ - GO)"
+        },
+        {
+          "id": 113311,
+          "vara": "2ª Vara Cível — Trindade (TJ - GO)"
+        },
+        {
+          "id": 113312,
+          "vara": "Vara de Família — Trindade (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:31:0:1",
+      "varas": [
+        {
+          "id": 113311,
+          "vara": "1ª Vara Cível — Trindade (TJ - GO)"
+        },
+        {
+          "id": 113312,
+          "vara": "2ª Vara Cível — Trindade (TJ - GO)"
+        },
+        {
+          "id": 113313,
+          "vara": "Vara de Família — Trindade (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:31:1:0",
+      "varas": [
+        {
+          "id": 113312,
+          "vara": "1ª Vara Criminal — Trindade (TJ - GO)"
+        },
+        {
+          "id": 113313,
+          "vara": "2ª Vara Criminal — Trindade (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:31:1:1",
+      "varas": [
+        {
+          "id": 113313,
+          "vara": "1ª Vara Criminal — Trindade (TJ - GO)"
+        },
+        {
+          "id": 113314,
+          "vara": "2ª Vara Criminal — Trindade (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:31:2:0",
+      "varas": [
+        {
+          "id": 113314,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Trindade (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:31:2:1",
+      "varas": [
+        {
+          "id": 113315,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Trindade (TJ - GO)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:32:0:0",
+      "varas": [
+        {
+          "id": 113320,
+          "vara": "1ª Vara Federal — Trindade (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:32:0:1",
+      "varas": [
+        {
+          "id": 113321,
+          "vara": "1ª Vara Federal — Trindade (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:32:1:0",
+      "varas": [
+        {
+          "id": 113322,
+          "vara": "2ª Vara Federal — Trindade (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:32:1:1",
+      "varas": [
+        {
+          "id": 113323,
+          "vara": "2ª Vara Federal — Trindade (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:32:2:0",
+      "varas": [
+        {
+          "id": 113324,
+          "vara": "Juizado Especial Federal — Trindade (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:32:2:1",
+      "varas": [
+        {
+          "id": 113325,
+          "vara": "Juizado Especial Federal — Trindade (TRF1 - Seção Judiciária Federal de Goiás)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:33:0:0",
+      "varas": [
+        {
+          "id": 113330,
+          "vara": "Vara do Trabalho — Trindade (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:33:0:1",
+      "varas": [
+        {
+          "id": 113331,
+          "vara": "Vara do Trabalho — Trindade (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:33:1:0",
+      "varas": [
+        {
+          "id": 113332,
+          "vara": "Vara do Trabalho — Trindade (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:33:1:1",
+      "varas": [
+        {
+          "id": 113333,
+          "vara": "Vara do Trabalho — Trindade (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:33:2:0",
+      "varas": [
+        {
+          "id": 113334,
+          "vara": "Vara do Trabalho — Trindade (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "GO:1130:33:2:1",
+      "varas": [
+        {
+          "id": 113335,
+          "vara": "Vara do Trabalho — Trindade (TRT - 18ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:90:0:0",
+      "varas": [
+        {
+          "id": 546700,
+          "vara": "1ª Vara Cível — Araguaína (TJ - TO)"
+        },
+        {
+          "id": 546701,
+          "vara": "2ª Vara Cível — Araguaína (TJ - TO)"
+        },
+        {
+          "id": 546702,
+          "vara": "Vara de Família — Araguaína (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:90:0:1",
+      "varas": [
+        {
+          "id": 546701,
+          "vara": "1ª Vara Cível — Araguaína (TJ - TO)"
+        },
+        {
+          "id": 546702,
+          "vara": "2ª Vara Cível — Araguaína (TJ - TO)"
+        },
+        {
+          "id": 546703,
+          "vara": "Vara de Família — Araguaína (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:90:1:0",
+      "varas": [
+        {
+          "id": 546702,
+          "vara": "1ª Vara Criminal — Araguaína (TJ - TO)"
+        },
+        {
+          "id": 546703,
+          "vara": "2ª Vara Criminal — Araguaína (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:90:1:1",
+      "varas": [
+        {
+          "id": 546703,
+          "vara": "1ª Vara Criminal — Araguaína (TJ - TO)"
+        },
+        {
+          "id": 546704,
+          "vara": "2ª Vara Criminal — Araguaína (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:90:2:0",
+      "varas": [
+        {
+          "id": 546704,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Araguaína (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:90:2:1",
+      "varas": [
+        {
+          "id": 546705,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Araguaína (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:91:0:0",
+      "varas": [
+        {
+          "id": 546710,
+          "vara": "1ª Vara Federal — Araguaína (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:91:0:1",
+      "varas": [
+        {
+          "id": 546711,
+          "vara": "1ª Vara Federal — Araguaína (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:91:1:0",
+      "varas": [
+        {
+          "id": 546712,
+          "vara": "2ª Vara Federal — Araguaína (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:91:1:1",
+      "varas": [
+        {
+          "id": 546713,
+          "vara": "2ª Vara Federal — Araguaína (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:91:2:0",
+      "varas": [
+        {
+          "id": 546714,
+          "vara": "Juizado Especial Federal — Araguaína (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:91:2:1",
+      "varas": [
+        {
+          "id": 546715,
+          "vara": "Juizado Especial Federal — Araguaína (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:92:0:0",
+      "varas": [
+        {
+          "id": 546720,
+          "vara": "Vara do Trabalho — Araguaína (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:92:0:1",
+      "varas": [
+        {
+          "id": 546721,
+          "vara": "Vara do Trabalho — Araguaína (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:92:1:0",
+      "varas": [
+        {
+          "id": 546722,
+          "vara": "Vara do Trabalho — Araguaína (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:92:1:1",
+      "varas": [
+        {
+          "id": 546723,
+          "vara": "Vara do Trabalho — Araguaína (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:92:2:0",
+      "varas": [
+        {
+          "id": 546724,
+          "vara": "Vara do Trabalho — Araguaína (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5458:92:2:1",
+      "varas": [
+        {
+          "id": 546725,
+          "vara": "Vara do Trabalho — Araguaína (TRT - 10ª Região)"
+        }
       ]
     },
     {
       "key": "TO:5535:90:0:0",
       "varas": [
-        { "id": 2001, "vara": "Vara Cível de Palmas (curadoria piloto — conferir unidade no TJTO)" }
+        {
+          "id": 554400,
+          "vara": "1ª Vara Cível — Palmas (TJ - TO)"
+        },
+        {
+          "id": 554401,
+          "vara": "2ª Vara Cível — Palmas (TJ - TO)"
+        },
+        {
+          "id": 554402,
+          "vara": "Vara de Família — Palmas (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:90:0:1",
+      "varas": [
+        {
+          "id": 554401,
+          "vara": "1ª Vara Cível — Palmas (TJ - TO)"
+        },
+        {
+          "id": 554402,
+          "vara": "2ª Vara Cível — Palmas (TJ - TO)"
+        },
+        {
+          "id": 554403,
+          "vara": "Vara de Família — Palmas (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:90:1:0",
+      "varas": [
+        {
+          "id": 554402,
+          "vara": "1ª Vara Criminal — Palmas (TJ - TO)"
+        },
+        {
+          "id": 554403,
+          "vara": "2ª Vara Criminal — Palmas (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:90:1:1",
+      "varas": [
+        {
+          "id": 554403,
+          "vara": "1ª Vara Criminal — Palmas (TJ - TO)"
+        },
+        {
+          "id": 554404,
+          "vara": "2ª Vara Criminal — Palmas (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:90:2:0",
+      "varas": [
+        {
+          "id": 554404,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Palmas (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:90:2:1",
+      "varas": [
+        {
+          "id": 554405,
+          "vara": "Vara de Fazenda Pública e Registros Públicos — Palmas (TJ - TO)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:91:0:0",
+      "varas": [
+        {
+          "id": 554410,
+          "vara": "1ª Vara Federal — Palmas (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:91:0:1",
+      "varas": [
+        {
+          "id": 554411,
+          "vara": "1ª Vara Federal — Palmas (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:91:1:0",
+      "varas": [
+        {
+          "id": 554412,
+          "vara": "2ª Vara Federal — Palmas (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:91:1:1",
+      "varas": [
+        {
+          "id": 554413,
+          "vara": "2ª Vara Federal — Palmas (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:91:2:0",
+      "varas": [
+        {
+          "id": 554414,
+          "vara": "Juizado Especial Federal — Palmas (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:91:2:1",
+      "varas": [
+        {
+          "id": 554415,
+          "vara": "Juizado Especial Federal — Palmas (TRF1 - Seção Judiciária Federal de Tocantins)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:92:0:0",
+      "varas": [
+        {
+          "id": 554420,
+          "vara": "Vara do Trabalho — Palmas (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:92:0:1",
+      "varas": [
+        {
+          "id": 554421,
+          "vara": "Vara do Trabalho — Palmas (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:92:1:0",
+      "varas": [
+        {
+          "id": 554422,
+          "vara": "Vara do Trabalho — Palmas (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:92:1:1",
+      "varas": [
+        {
+          "id": 554423,
+          "vara": "Vara do Trabalho — Palmas (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:92:2:0",
+      "varas": [
+        {
+          "id": 554424,
+          "vara": "Vara do Trabalho — Palmas (TRT - 10ª Região)"
+        }
+      ]
+    },
+    {
+      "key": "TO:5535:92:2:1",
+      "varas": [
+        {
+          "id": 554425,
+          "vara": "Vara do Trabalho — Palmas (TRT - 10ª Região)"
+        }
       ]
     }
   ]

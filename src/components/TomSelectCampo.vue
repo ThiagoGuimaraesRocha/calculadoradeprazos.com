@@ -53,7 +53,7 @@ function syncOptions() {
 
 onMounted(() => {
   if (!selectRef.value) return;
-  tom = new TomSelect(selectRef.value, {
+  tom = new TomSelect(`#${props.id}`, {
     allowEmptyOption: true,
     placeholder: props.placeholder,
     onChange(value: string) {
