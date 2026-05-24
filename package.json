@@ -11,7 +11,8 @@
     "data:varas": "node scripts/build-varas-piloto.mjs",
     "data:comarcas-gap": "node scripts/inventario-comarcas-gap.mjs",
     "data:municipios-comarcas": "node scripts/gerar-municipios-comarcas.mjs",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "release": "semantic-release"
   },
   "dependencies": {
     "tom-select": "^2.4.3",
@@ -28,6 +29,11 @@
     "vite": "^6.0.7",
     "vitest": "^3.0.5",
     "vue-tsc": "^2.2.0",
-    "wrangler": "^4.94.0"
+    "wrangler": "^4.94.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "semantic-release": "^24.2.3"
   }
 }

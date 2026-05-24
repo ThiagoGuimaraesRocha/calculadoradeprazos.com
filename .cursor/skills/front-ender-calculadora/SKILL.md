@@ -83,7 +83,7 @@ Executar na ordem, alinhado a `.cursor/rules/integracoes-jira-github-cloudflare.
 2. **Testar** — Seção **Testes**; `npm test` verde.
 3. **Build** — `npm run build` verde.
 4. **Branch** — Trabalhar em `feature/<JIRA-KEY>-slug-curto` ou `fix/<JIRA-KEY>-slug-curto` (ex.: `feature/CALC-12-contagem-dias-uteis`). Criar a partir de `main` atualizada se necessário.
-5. **Commits** — Mensagem com chave Jira: `CALC-12: descrição curta do que mudou` (incluir testes no mesmo PR).
+5. **Commits** — Conventional Commits + Jira para semantic-release: `CALC-12: feat: …`, `CALC-12: fix: …` (título do squash merge em `main` no mesmo formato). Não alterar `version` em `package.json` no PR — o CI faz o bump ao mergear.
 6. **Push** — `git push -u origin HEAD` (permissões de rede/git conforme ambiente).
 7. **Pull request** — Base **`main`**. Usar `gh pr create` com corpo preenchido a partir de `.github/pull_request_template.md`:
    - **Contexto** e checklist do template.

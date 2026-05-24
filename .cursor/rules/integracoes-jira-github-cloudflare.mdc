@@ -16,7 +16,8 @@ Use esta regra ao configurar CI/CD, branches, PRs ou ao orientar commits que cru
 
 - **Branch principal:** `main` (deploy automático via workflow `deploy-cloudflare-pages.yml`).
 - **Branches de trabalho:** `feature/<JIRA-KEY>-slug-curto` ou `fix/<JIRA-KEY>-slug-curto` (ex.: `feature/CALC-12-contagem-dias-uteis`).
-- **Commits:** incluir a chave Jira no assunto para rastreio e automações (ex.: `CALC-12: ajusta feriados estaduais`).
+- **Commits:** chave Jira + [Conventional Commits](https://www.conventionalcommits.org/) para o semantic-release (ex.: `CALC-12: feat: dias úteis`, `CALC-12: fix: feriado`). Título do squash merge em `main` deve seguir o mesmo padrão.
+- **Versão (SemVer):** em cada merge relevante em `main`, o workflow `deploy-cloudflare-pages.yml` roda **semantic-release** (bump em `package.json`, `CHANGELOG.md`, tag GitHub); não editar `version` manualmente no PR salvo exceção acordada.
 - **Pull requests:** preencher o template em `.github/pull_request_template.md` com a chave Jira (`Closes`, `Fixes` ou `Relates to`, conforme o processo do time).
 
 ## Jira
@@ -30,7 +31,7 @@ Use esta regra ao configurar CI/CD, branches, PRs ou ao orientar commits que cru
 
 - **Stack:** Vite + Vue 3; `npm run build` gera `dist/`; dados estáticos em `public/` (copiados para `dist/` no build).
 - **Conteúdo publicado:** pasta **`dist/`** após o build (não publicar `public/` nem `src/` diretamente).
-- **Workflow:** `.github/workflows/deploy-cloudflare-pages.yml` — em push em `main`: `npm ci` → `npm test` → `npm run build` → deploy via `cloudflare/pages-action` (somente se os secrets existirem).
+- **Workflow:** `.github/workflows/deploy-cloudflare-pages.yml` — em push em `main` (exceto `[skip ci]`): `npm ci` → **semantic-release** → `npm test` → `npm run build` → deploy via `cloudflare/pages-action` (somente se os secrets existirem).
 - **Secrets no GitHub** (Settings → Secrets and variables → Actions) — **obrigatórios para o passo de deploy deste workflow**; sem eles o job de CI/build passa e o deploy é ignorado com aviso:
   - `CLOUDFLARE_API_TOKEN` — token com permissão **Edit Cloudflare Workers** (adequado para Pages).
   - `CLOUDFLARE_ACCOUNT_ID` — ID da conta no painel Cloudflare.

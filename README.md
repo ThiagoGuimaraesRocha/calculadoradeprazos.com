@@ -34,13 +34,23 @@ npm test
 
 ## Versão da aplicação (SemVer)
 
-A versão oficial fica apenas em `package.json` (`version`). A SPA importa esse valor via `src/config/version.ts` (`APP_VERSION`), usado pelo build Vite em dev, preview e produção — **não** duplique a string em outros arquivos.
+A versão oficial fica em `package.json` (`version`), atualizada automaticamente no **merge em `main`** pelo [semantic-release](https://github.com/semantic-release/semantic-release) (workflow `.github/workflows/deploy-cloudflare-pages.yml`). A SPA lê o valor via `src/config/version.ts` (`APP_VERSION`) — **não** duplique a string em outros arquivos.
 
-Antes de um release (deploy em `main`):
+### Commits que geram release
 
-1. Atualize `version` em `package.json` conforme [SemVer](https://semver.org/lang/pt-BR/): **patch** (correções compatíveis), **minor** (funcionalidades compatíveis), **major** (mudanças incompatíveis).
-2. Rode `npm test` e `npm run build`.
-3. Faça merge do PR; o rodapé e demais telas que consumirem `APP_VERSION` passarão a exibir o novo número após o deploy.
+Use [Conventional Commits](https://www.conventionalcommits.org/) no **título do squash merge** ou no commit em `main` (prefixo Jira opcional):
+
+| Mensagem (exemplo) | Bump |
+|--------------------|------|
+| `CALC-12: feat: opção dias úteis` | minor |
+| `CALC-12: fix: corrige feriado` | patch |
+| `CALC-12: perf: cache calendário` | patch |
+| `feat!: quebra API interna` ou corpo com `BREAKING CHANGE:` | major |
+| `CALC-12: chore: docs` | sem release (só deploy se houver mudança de código) |
+
+Fluxo após merge em `main`: `semantic-release` → tag GitHub + `CHANGELOG.md` + bump em `package.json` → `npm test` → `npm run build` → deploy. O commit `chore(release): … [skip ci]` não dispara um segundo pipeline completo.
+
+Release local (dry-run): `npx semantic-release --dry-run` (requer histórico git e variáveis `GITHUB_TOKEN` se for testar publicação).
 
 Spike de comarcas (CALC-21): ver `docs/comarcas-fonte-go-to.md` e `public/data/comarcas-mapeamento-legado.json`.
 
