@@ -1,1 +1,177 @@
-﻿[{"id":5458,"nome":"Aragua\u00edna","estados_id":27},{"id":5535,"nome":"Palmas","estados_id":27}]
+[
+    {
+        "id": 60000,
+        "nome": "Alvorada",
+        "estados_id": 27
+    },
+    {
+        "id": 60001,
+        "nome": "Ananás",
+        "estados_id": 27
+    },
+    {
+        "id": 60002,
+        "nome": "Araguacema",
+        "estados_id": 27
+    },
+    {
+        "id": 60003,
+        "nome": "Araguaçu",
+        "estados_id": 27
+    },
+    {
+        "id": 5458,
+        "nome": "Araguaína",
+        "estados_id": 27
+    },
+    {
+        "id": 60004,
+        "nome": "Araguatins",
+        "estados_id": 27
+    },
+    {
+        "id": 60005,
+        "nome": "Arapoema",
+        "estados_id": 27
+    },
+    {
+        "id": 60006,
+        "nome": "Arraias",
+        "estados_id": 27
+    },
+    {
+        "id": 60007,
+        "nome": "Augustinópolis",
+        "estados_id": 27
+    },
+    {
+        "id": 60008,
+        "nome": "Colinas do Tocantins",
+        "estados_id": 27
+    },
+    {
+        "id": 60009,
+        "nome": "Cristalândia",
+        "estados_id": 27
+    },
+    {
+        "id": 60010,
+        "nome": "Dianópolis",
+        "estados_id": 27
+    },
+    {
+        "id": 60011,
+        "nome": "Filadélfia",
+        "estados_id": 27
+    },
+    {
+        "id": 60012,
+        "nome": "Formoso do Araguaia",
+        "estados_id": 27
+    },
+    {
+        "id": 60013,
+        "nome": "Goiatins",
+        "estados_id": 27
+    },
+    {
+        "id": 60014,
+        "nome": "Guaraí",
+        "estados_id": 27
+    },
+    {
+        "id": 60015,
+        "nome": "Gurupi",
+        "estados_id": 27
+    },
+    {
+        "id": 60016,
+        "nome": "Itacajá",
+        "estados_id": 27
+    },
+    {
+        "id": 60017,
+        "nome": "Itaguatins",
+        "estados_id": 27
+    },
+    {
+        "id": 60018,
+        "nome": "Miracema do Tocantins",
+        "estados_id": 27
+    },
+    {
+        "id": 60019,
+        "nome": "Miranorte",
+        "estados_id": 27
+    },
+    {
+        "id": 60020,
+        "nome": "Natividade",
+        "estados_id": 27
+    },
+    {
+        "id": 60021,
+        "nome": "Novo Acordo",
+        "estados_id": 27
+    },
+    {
+        "id": 5535,
+        "nome": "Palmas",
+        "estados_id": 27
+    },
+    {
+        "id": 60022,
+        "nome": "Palmeirópolis",
+        "estados_id": 27
+    },
+    {
+        "id": 60023,
+        "nome": "Paraíso do Tocantins",
+        "estados_id": 27
+    },
+    {
+        "id": 60024,
+        "nome": "Paranã",
+        "estados_id": 27
+    },
+    {
+        "id": 60025,
+        "nome": "Pedro Afonso",
+        "estados_id": 27
+    },
+    {
+        "id": 60026,
+        "nome": "Peixe",
+        "estados_id": 27
+    },
+    {
+        "id": 60027,
+        "nome": "Ponte Alta do Tocantins",
+        "estados_id": 27
+    },
+    {
+        "id": 60028,
+        "nome": "Porto Nacional",
+        "estados_id": 27
+    },
+    {
+        "id": 60029,
+        "nome": "Taguatinga",
+        "estados_id": 27
+    },
+    {
+        "id": 60030,
+        "nome": "Tocantinópolis",
+        "estados_id": 27
+    },
+    {
+        "id": 60031,
+        "nome": "Wanderlândia",
+        "estados_id": 27
+    },
+    {
+        "id": 60032,
+        "nome": "Xambioá",
+        "estados_id": 27
+    }
+]

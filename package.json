@@ -10,6 +10,7 @@
     "test": "vitest run",
     "data:varas": "node scripts/build-varas-piloto.mjs",
     "data:comarcas-gap": "node scripts/inventario-comarcas-gap.mjs",
+    "data:municipios-comarcas": "node scripts/gerar-municipios-comarcas.mjs",
     "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {

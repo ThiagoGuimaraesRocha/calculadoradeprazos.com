@@ -1,0 +1,16 @@
+{
+  "fonte": "Complemento CALC-22 — sedes não numeradas no anexo legislativo ou criadas após a redação do arquivo 18606 (legisla.casacivil.go.gov.br). Contagem alvo TJGO: 123.",
+  "consultaEm": "2026-05-24",
+  "sedesAdicionais": [
+    "Cachoeira Dourada",
+    "Cezarina",
+    "Montevidiu",
+    "Ponte Alta do Araguaia"
+  ],
+  "excluidas": [
+    {
+      "nome": "Araçu",
+      "motivo": "Resolução TJGO nº 305/2025 — comarca anexada a Inhumas (fora da lista operacional)."
+    }
+  ]
+}

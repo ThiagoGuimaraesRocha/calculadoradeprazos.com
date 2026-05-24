@@ -1,4 +1,4 @@
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
@@ -28,16 +28,8 @@ describe('CALC-21 — documentação e artefatos de comarcas', () => {
     expect(data.legado.length).toBeGreaterThanOrEqual(26);
   });
 
-  it('gap piloto indica faltam comarcas em GO', () => {
-    const gapPath = join(root, 'public/data/comarcas-gap-piloto.json');
-    if (!existsSync(gapPath)) {
-      // gerado sob demanda pelo script; valores fixos do doc
-      expect(123 - 24).toBe(99);
-      return;
-    }
-    const gap = JSON.parse(readRoot('public/data/comarcas-gap-piloto.json'));
-    expect(gap.piloto.GO.atual).toBe(24);
-    expect(gap.piloto.GO.oficial).toBe(123);
-    expect(gap.piloto.GO.faltam).toBe(99);
+  it('GO.json reflete contagem oficial de 123 comarcas (CALC-22)', () => {
+    const go = JSON.parse(readRoot('public/data/municipios/GO.json'));
+    expect(go.length).toBe(123);
   });
 });
