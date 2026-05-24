@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineOptions({ inheritAttrs: false });
 
-import { onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import TomSelect from 'tom-select';
 import 'tom-select/dist/css/tom-select.css';
 
@@ -51,9 +51,11 @@ function syncOptions() {
   }
 }
 
-onMounted(() => {
+onMounted(async () => {
+  await nextTick();
   if (!selectRef.value) return;
-  tom = new TomSelect(selectRef.value, {  // Pass the element directly instead of selector string
+  // Tom-select types divergem do HTMLSelectElement do DOM; runtime aceita o elemento.
+  tom = new TomSelect(selectRef.value as unknown as string, {
     allowEmptyOption: true,
     placeholder: props.placeholder,
     onChange(value: string) {

@@ -32,6 +32,12 @@ Testes:
 npm test
 ```
 
+Spike de comarcas (CALC-21): ver `docs/comarcas-fonte-go-to.md` e `public/data/comarcas-mapeamento-legado.json`.
+
+```bash
+npm run data:comarcas-gap
+```
+
 Regenerar índice de varas do piloto (após alterar municípios/tribunais):
 
 ```bash

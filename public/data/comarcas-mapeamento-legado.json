@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "versao": 1,
+    "cartao": "CALC-21",
+    "estados_id": { "GO": 9, "TO": 27 },
+    "regraIdsNovos": "A partir de 60000, sequencial por UF na ordem alfabética do nome oficial da sede; nunca reutilizar id legado."
+  },
+  "legado": [
+    { "id": 904, "nome": "Águas Lindas de Goiás", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 913, "nome": "Anápolis", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 916, "nome": "Aparecida de Goiânia", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 945, "nome": "Caldas Novas", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 949, "nome": "Campinorte", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 956, "nome": "Catalão", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 987, "nome": "Formoso", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 991, "nome": "Goianésia", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 992, "nome": "Goiânia", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1002, "nome": "Hidrolândia", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1017, "nome": "Itapirapuã", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1021, "nome": "Itumbiara", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1025, "nome": "Jataí", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1041, "nome": "Mineiros", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1054, "nome": "Nerópolis", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1064, "nome": "Novo Gama", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1071, "nome": "Palmeiras de Goiás", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1075, "nome": "Paranaiguara", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1086, "nome": "Porangatu", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1095, "nome": "Rio Verde", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1101, "nome": "Santa Helena de Goiás", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1115, "nome": "São Luís de Montes Belos", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1121, "nome": "Senador Canedo", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 1130, "nome": "Trindade", "estadoSigla": "GO", "estados_id": 9, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 5458, "nome": "Araguaína", "estadoSigla": "TO", "estados_id": 27, "origemId": "piloto CALC-15 / referência Prazo Fácil" },
+    { "id": 5535, "nome": "Palmas", "estadoSigla": "TO", "estados_id": 27, "origemId": "piloto CALC-15 / referência Prazo Fácil" }
+  ],
+  "exemplosNovosIds": [
+    {
+      "nomeOficial": "Goiânia",
+      "idLegado": 992,
+      "acao": "manter"
+    },
+    {
+      "nomeOficial": "Palmas",
+      "idLegado": 5535,
+      "acao": "manter"
+    },
+    {
+      "nomeOficial": "Planaltina",
+      "idSugerido": 60001,
+      "estadoSigla": "GO",
+      "acao": "criar no CALC-22 — sede de comarca TJGO, ausente no piloto"
+    },
+    {
+      "nomeOficial": "Gurupi",
+      "idSugerido": 60002,
+      "estadoSigla": "TO",
+      "acao": "criar no CALC-22 — comarca TJTO, ausente no piloto"
+    },
+    {
+      "nomeOficial": "Paraíso do Tocantins",
+      "idSugerido": 60003,
+      "estadoSigla": "TO",
+      "acao": "criar no CALC-22"
+    }
+  ]
+}
