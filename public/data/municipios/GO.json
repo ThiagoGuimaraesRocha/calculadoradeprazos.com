@@ -1,1 +1,122 @@
-﻿[{"id":904,"nome":"\u00c1guas Lindas de Goi\u00e1s","estados_id":9},{"id":913,"nome":"An\u00e1polis","estados_id":9},{"id":916,"nome":"Aparecida de Goi\u00e2nia","estados_id":9},{"id":945,"nome":"Caldas Novas","estados_id":9},{"id":949,"nome":"Campinorte","estados_id":9},{"id":956,"nome":"Catal\u00e3o","estados_id":9},{"id":987,"nome":"Formoso","estados_id":9},{"id":991,"nome":"Goian\u00e9sia","estados_id":9},{"id":992,"nome":"Goi\u00e2nia","estados_id":9},{"id":1002,"nome":"Hidrol\u00e2ndia","estados_id":9},{"id":1017,"nome":"Itapirapu\u00e3","estados_id":9},{"id":1021,"nome":"Itumbiara","estados_id":9},{"id":1025,"nome":"Jata\u00ed","estados_id":9},{"id":1041,"nome":"Mineiros","estados_id":9},{"id":1054,"nome":"Ner\u00f3polis","estados_id":9},{"id":1064,"nome":"Novo Gama","estados_id":9},{"id":1071,"nome":"Palmeiras de Goi\u00e1s","estados_id":9},{"id":1075,"nome":"Paranaiguara","estados_id":9},{"id":1086,"nome":"Porangatu","estados_id":9},{"id":1095,"nome":"Rio Verde","estados_id":9},{"id":1101,"nome":"Santa Helena de Goi\u00e1s","estados_id":9},{"id":1115,"nome":"S\u00e3o Lu\u00eds de Montes Belos","estados_id":9},{"id":1121,"nome":"Senador Canedo","estados_id":9},{"id":1130,"nome":"Trindade","estados_id":9}]
+﻿[
+    {
+        "id": 904,
+        "nome": "\u00c1guas Lindas de Goi\u00e1s",
+        "estados_id": 9
+    },
+    {
+        "id": 913,
+        "nome": "An\u00e1polis",
+        "estados_id": 9
+    },
+    {
+        "id": 916,
+        "nome": "Aparecida de Goi\u00e2nia",
+        "estados_id": 9
+    },
+    {
+        "id": 945,
+        "nome": "Caldas Novas",
+        "estados_id": 9
+    },
+    {
+        "id": 949,
+        "nome": "Campinorte",
+        "estados_id": 9
+    },
+    {
+        "id": 956,
+        "nome": "Catal\u00e3o",
+        "estados_id": 9
+    },
+    {
+        "id": 987,
+        "nome": "Formoso",
+        "estados_id": 9
+    },
+    {
+        "id": 991,
+        "nome": "Goian\u00e9sia",
+        "estados_id": 9
+    },
+    {
+        "id": 992,
+        "nome": "Goi\u00e2nia",
+        "estados_id": 9
+    },
+    {
+        "id": 1002,
+        "nome": "Hidrol\u00e2ndia",
+        "estados_id": 9
+    },
+    {
+        "id": 1017,
+        "nome": "Itapirapu\u00e3",
+        "estados_id": 9
+    },
+    {
+        "id": 1021,
+        "nome": "Itumbiara",
+        "estados_id": 9
+    },
+    {
+        "id": 1025,
+        "nome": "Jata\u00ed",
+        "estados_id": 9
+    },
+    {
+        "id": 1041,
+        "nome": "Mineiros",
+        "estados_id": 9
+    },
+    {
+        "id": 1054,
+        "nome": "Ner\u00f3polis",
+        "estados_id": 9
+    },
+    {
+        "id": 1064,
+        "nome": "Novo Gama",
+        "estados_id": 9
+    },
+    {
+        "id": 1071,
+        "nome": "Palmeiras de Goi\u00e1s",
+        "estados_id": 9
+    },
+    {
+        "id": 1075,
+        "nome": "Paranaiguara",
+        "estados_id": 9
+    },
+    {
+        "id": 1086,
+        "nome": "Porangatu",
+        "estados_id": 9
+    },
+    {
+        "id": 1095,
+        "nome": "Rio Verde",
+        "estados_id": 9
+    },
+    {
+        "id": 1101,
+        "nome": "Santa Helena de Goi\u00e1s",
+        "estados_id": 9
+    },
+    {
+        "id": 1115,
+        "nome": "S\u00e3o Lu\u00eds de Montes Belos",
+        "estados_id": 9
+    },
+    {
+        "id": 1121,
+        "nome": "Senador Canedo",
+        "estados_id": 9
+    },
+    {
+        "id": 1130,
+        "nome": "Trindade",
+        "estados_id": 9
+    }
+]
