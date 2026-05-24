@@ -48,6 +48,14 @@ Spike de comarcas (CALC-21): ver `docs/comarcas-fonte-go-to.md` e `public/data/c
 npm run data:comarcas-gap
 ```
 
+Gerar listas completas de comarcas (sedes) para GO e TO — CALC-22:
+
+```bash
+npm run data:municipios-comarcas
+```
+
+Fontes: anexo legislativo GO (`scripts/data/fonte/comarcas-go-legisla-anexo.txt`) + suplemento (`scripts/data/comarcas-go-suplemento.json`); TJTO (`scripts/data/comarcas-sedes-to.json`). Ver `docs/comarcas-fonte-go-to.md`.
+
 Regenerar índice de varas do piloto (após alterar municípios/tribunais):
 
 ```bash

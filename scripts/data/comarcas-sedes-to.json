@@ -1,0 +1,48 @@
+{
+  "fonte": "TJTO — Relação de Comarcas (VisualizarRelComarca.aspx)",
+  "url": "http://wwa.tjto.jus.br/relepromover/Report/VisualizarRelComarca.aspx",
+  "consultaEm": "2026-05-24",
+  "excluidas": [
+    {
+      "nome": "Tocantínia",
+      "motivo": "Resolução TJTO nº 53/2024 — comarca desinstalada, anexada a Miracema do Tocantins."
+    }
+  ],
+  "sedes": [
+    "Alvorada",
+    "Ananás",
+    "Araguaína",
+    "Araguacema",
+    "Araguaçu",
+    "Arapoema",
+    "Araguatins",
+    "Arraias",
+    "Augustinópolis",
+    "Colinas do Tocantins",
+    "Cristalândia",
+    "Dianópolis",
+    "Filadélfia",
+    "Formoso do Araguaia",
+    "Goiatins",
+    "Guaraí",
+    "Gurupi",
+    "Itacajá",
+    "Itaguatins",
+    "Miracema do Tocantins",
+    "Miranorte",
+    "Natividade",
+    "Novo Acordo",
+    "Palmas",
+    "Palmeirópolis",
+    "Paranã",
+    "Paraíso do Tocantins",
+    "Peixe",
+    "Pedro Afonso",
+    "Ponte Alta do Tocantins",
+    "Porto Nacional",
+    "Taguatinga",
+    "Tocantinópolis",
+    "Wanderlândia",
+    "Xambioá"
+  ]
+}

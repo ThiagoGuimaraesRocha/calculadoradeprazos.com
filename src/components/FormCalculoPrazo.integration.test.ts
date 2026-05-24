@@ -61,6 +61,22 @@ describe('FormCalculoPrazo (integração)', () => {
     vi.unstubAllGlobals();
   });
 
+  it('lista Aruanã no combo de comarcas ao selecionar GO (CALC-22)', async () => {
+    const wrapper = mount(FormCalculoPrazo);
+    await flushPromises();
+    await wrapper.find('#estado').setValue('GO');
+    await flushPromises();
+
+    const municipioCampo = wrapper
+      .findAllComponents(TomSelectCampo)
+      .find((c) => c.props('id') === 'municipio');
+    expect(municipioCampo).toBeDefined();
+
+    const opcoes = municipioCampo!.props('options') as { label: string }[];
+    expect(opcoes.length).toBeGreaterThan(100);
+    expect(opcoes.some((o) => o.label === 'Aruanã')).toBe(true);
+  });
+
   it('exibe rótulo e ajuda de comarca no combo (CALC-23)', async () => {
     const wrapper = mount(FormCalculoPrazo);
     await flushPromises();

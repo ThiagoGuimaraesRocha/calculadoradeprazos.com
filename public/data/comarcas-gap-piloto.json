@@ -2,12 +2,12 @@
   "geradoEm": "2026-05-24",
   "piloto": {
     "GO": {
-      "atual": 24,
+      "atual": 123,
       "oficial": 123,
-      "faltam": 99
+      "faltam": 0
     },
     "TO": {
-      "atual": 2,
+      "atual": 35,
       "oficial": null,
       "faltam": null
     }
@@ -38,13 +38,137 @@
     "1121",
     "1130",
     "5458",
-    "5535"
+    "5535",
+    "60000",
+    "60001",
+    "60002",
+    "60003",
+    "60004",
+    "60005",
+    "60006",
+    "60007",
+    "60008",
+    "60009",
+    "60010",
+    "60011",
+    "60012",
+    "60013",
+    "60014",
+    "60015",
+    "60016",
+    "60017",
+    "60018",
+    "60019",
+    "60020",
+    "60021",
+    "60022",
+    "60023",
+    "60024",
+    "60025",
+    "60026",
+    "60027",
+    "60028",
+    "60029",
+    "60030",
+    "60031",
+    "60032",
+    "60033",
+    "60034",
+    "60035",
+    "60036",
+    "60037",
+    "60038",
+    "60039",
+    "60040",
+    "60041",
+    "60042",
+    "60043",
+    "60044",
+    "60045",
+    "60046",
+    "60047",
+    "60048",
+    "60049",
+    "60050",
+    "60051",
+    "60052",
+    "60053",
+    "60054",
+    "60055",
+    "60056",
+    "60057",
+    "60058",
+    "60059",
+    "60060",
+    "60061",
+    "60062",
+    "60063",
+    "60064",
+    "60065",
+    "60066",
+    "60067",
+    "60068",
+    "60069",
+    "60070",
+    "60071",
+    "60072",
+    "60073",
+    "60074",
+    "60075",
+    "60076",
+    "60077",
+    "60078",
+    "60079",
+    "60080",
+    "60081",
+    "60082",
+    "60083",
+    "60084",
+    "60085",
+    "60086",
+    "60087",
+    "60088",
+    "60089",
+    "60090",
+    "60091",
+    "60092",
+    "60093",
+    "60094",
+    "60095",
+    "60096",
+    "60097",
+    "60098"
   ],
   "municipiosAtuais": {
     "GO": [
       {
+        "id": 60000,
+        "nome": "Abadiânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60001,
+        "nome": "Acreúna",
+        "estados_id": 9
+      },
+      {
         "id": 904,
         "nome": "Águas Lindas de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60002,
+        "nome": "Alexânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60003,
+        "nome": "Alto Paraíso de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60004,
+        "nome": "Alvorada do Norte",
         "estados_id": 9
       },
       {
@@ -53,8 +177,68 @@
         "estados_id": 9
       },
       {
+        "id": 60005,
+        "nome": "Anicuns",
+        "estados_id": 9
+      },
+      {
         "id": 916,
         "nome": "Aparecida de Goiânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60006,
+        "nome": "Aragarças",
+        "estados_id": 9
+      },
+      {
+        "id": 60007,
+        "nome": "Aruanã",
+        "estados_id": 9
+      },
+      {
+        "id": 60008,
+        "nome": "Aurilândia",
+        "estados_id": 9
+      },
+      {
+        "id": 60009,
+        "nome": "Barro Alto",
+        "estados_id": 9
+      },
+      {
+        "id": 60010,
+        "nome": "Bela Vista de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60011,
+        "nome": "Bom Jesus de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60012,
+        "nome": "Buriti Alegre",
+        "estados_id": 9
+      },
+      {
+        "id": 60013,
+        "nome": "Cachoeira Alta",
+        "estados_id": 9
+      },
+      {
+        "id": 60014,
+        "nome": "Cachoeira Dourada",
+        "estados_id": 9
+      },
+      {
+        "id": 60015,
+        "nome": "Caçu",
+        "estados_id": 9
+      },
+      {
+        "id": 60016,
+        "nome": "Caiapônia",
         "estados_id": 9
       },
       {
@@ -68,13 +252,103 @@
         "estados_id": 9
       },
       {
+        "id": 60017,
+        "nome": "Campos Belos",
+        "estados_id": 9
+      },
+      {
         "id": 956,
         "nome": "Catalão",
         "estados_id": 9
       },
       {
+        "id": 60018,
+        "nome": "Cavalcante",
+        "estados_id": 9
+      },
+      {
+        "id": 60019,
+        "nome": "Ceres",
+        "estados_id": 9
+      },
+      {
+        "id": 60020,
+        "nome": "Cezarina",
+        "estados_id": 9
+      },
+      {
+        "id": 60021,
+        "nome": "Cidade Ocidental",
+        "estados_id": 9
+      },
+      {
+        "id": 60022,
+        "nome": "Cocalzinho de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60023,
+        "nome": "Corumbá de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60024,
+        "nome": "Corumbaíba",
+        "estados_id": 9
+      },
+      {
+        "id": 60025,
+        "nome": "Cristalina",
+        "estados_id": 9
+      },
+      {
+        "id": 60026,
+        "nome": "Crixás",
+        "estados_id": 9
+      },
+      {
+        "id": 60027,
+        "nome": "Edéia",
+        "estados_id": 9
+      },
+      {
+        "id": 60028,
+        "nome": "Estrela do Norte",
+        "estados_id": 9
+      },
+      {
+        "id": 60029,
+        "nome": "Fazenda Nova",
+        "estados_id": 9
+      },
+      {
+        "id": 60030,
+        "nome": "Firminópolis",
+        "estados_id": 9
+      },
+      {
+        "id": 60031,
+        "nome": "Flores de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60032,
+        "nome": "Formosa",
+        "estados_id": 9
+      },
+      {
         "id": 987,
         "nome": "Formoso",
+        "estados_id": 9
+      },
+      {
+        "id": 60033,
+        "nome": "Goianápolis",
+        "estados_id": 9
+      },
+      {
+        "id": 60034,
+        "nome": "Goiandira",
         "estados_id": 9
       },
       {
@@ -88,8 +362,63 @@
         "estados_id": 9
       },
       {
+        "id": 60035,
+        "nome": "Goianira",
+        "estados_id": 9
+      },
+      {
+        "id": 60036,
+        "nome": "Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60037,
+        "nome": "Goiatuba",
+        "estados_id": 9
+      },
+      {
+        "id": 60038,
+        "nome": "Guapó",
+        "estados_id": 9
+      },
+      {
         "id": 1002,
         "nome": "Hidrolândia",
+        "estados_id": 9
+      },
+      {
+        "id": 60039,
+        "nome": "Iaciara",
+        "estados_id": 9
+      },
+      {
+        "id": 60040,
+        "nome": "Inhumas",
+        "estados_id": 9
+      },
+      {
+        "id": 60041,
+        "nome": "Ipameri",
+        "estados_id": 9
+      },
+      {
+        "id": 60042,
+        "nome": "Iporá",
+        "estados_id": 9
+      },
+      {
+        "id": 60043,
+        "nome": "Itaberaí",
+        "estados_id": 9
+      },
+      {
+        "id": 60044,
+        "nome": "Itajá",
+        "estados_id": 9
+      },
+      {
+        "id": 60045,
+        "nome": "Itapaci",
         "estados_id": 9
       },
       {
@@ -98,8 +427,28 @@
         "estados_id": 9
       },
       {
+        "id": 60046,
+        "nome": "Itapuranga",
+        "estados_id": 9
+      },
+      {
+        "id": 60047,
+        "nome": "Itauçu",
+        "estados_id": 9
+      },
+      {
         "id": 1021,
         "nome": "Itumbiara",
+        "estados_id": 9
+      },
+      {
+        "id": 60048,
+        "nome": "Jandaia",
+        "estados_id": 9
+      },
+      {
+        "id": 60049,
+        "nome": "Jaraguá",
         "estados_id": 9
       },
       {
@@ -108,8 +457,78 @@
         "estados_id": 9
       },
       {
+        "id": 60050,
+        "nome": "Joviânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60051,
+        "nome": "Jussara",
+        "estados_id": 9
+      },
+      {
+        "id": 60052,
+        "nome": "Leopoldo de Bulhões",
+        "estados_id": 9
+      },
+      {
+        "id": 60053,
+        "nome": "Luziânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60054,
+        "nome": "Mara Rosa",
+        "estados_id": 9
+      },
+      {
+        "id": 60055,
+        "nome": "Maurilândia",
+        "estados_id": 9
+      },
+      {
+        "id": 60056,
+        "nome": "Minaçu",
+        "estados_id": 9
+      },
+      {
         "id": 1041,
         "nome": "Mineiros",
+        "estados_id": 9
+      },
+      {
+        "id": 60057,
+        "nome": "Montes Claros de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60058,
+        "nome": "Montevidiu",
+        "estados_id": 9
+      },
+      {
+        "id": 60059,
+        "nome": "Montividiu",
+        "estados_id": 9
+      },
+      {
+        "id": 60060,
+        "nome": "Morrinhos",
+        "estados_id": 9
+      },
+      {
+        "id": 60061,
+        "nome": "Mossâmedes",
+        "estados_id": 9
+      },
+      {
+        "id": 60062,
+        "nome": "Mozarlândia",
+        "estados_id": 9
+      },
+      {
+        "id": 60063,
+        "nome": "Nazário",
         "estados_id": 9
       },
       {
@@ -118,8 +537,28 @@
         "estados_id": 9
       },
       {
+        "id": 60064,
+        "nome": "Niquelândia",
+        "estados_id": 9
+      },
+      {
+        "id": 60065,
+        "nome": "Nova Crixás",
+        "estados_id": 9
+      },
+      {
         "id": 1064,
         "nome": "Novo Gama",
+        "estados_id": 9
+      },
+      {
+        "id": 60066,
+        "nome": "Orizona",
+        "estados_id": 9
+      },
+      {
+        "id": 60067,
+        "nome": "Padre Bernardo",
         "estados_id": 9
       },
       {
@@ -133,8 +572,73 @@
         "estados_id": 9
       },
       {
+        "id": 60068,
+        "nome": "Paraúna",
+        "estados_id": 9
+      },
+      {
+        "id": 60069,
+        "nome": "Petrolina de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60070,
+        "nome": "Piracanjuba",
+        "estados_id": 9
+      },
+      {
+        "id": 60071,
+        "nome": "Piranhas",
+        "estados_id": 9
+      },
+      {
+        "id": 60072,
+        "nome": "Pirenópolis",
+        "estados_id": 9
+      },
+      {
+        "id": 60073,
+        "nome": "Pires do Rio",
+        "estados_id": 9
+      },
+      {
+        "id": 60074,
+        "nome": "Planaltina",
+        "estados_id": 9
+      },
+      {
+        "id": 60075,
+        "nome": "Pontalina",
+        "estados_id": 9
+      },
+      {
+        "id": 60076,
+        "nome": "Ponte Alta do Araguaia",
+        "estados_id": 9
+      },
+      {
         "id": 1086,
         "nome": "Porangatu",
+        "estados_id": 9
+      },
+      {
+        "id": 60077,
+        "nome": "Posse",
+        "estados_id": 9
+      },
+      {
+        "id": 60078,
+        "nome": "Quirinópolis",
+        "estados_id": 9
+      },
+      {
+        "id": 60079,
+        "nome": "Registro",
+        "estados_id": 9
+      },
+      {
+        "id": 60080,
+        "nome": "Rialma",
         "estados_id": 9
       },
       {
@@ -143,8 +647,38 @@
         "estados_id": 9
       },
       {
+        "id": 60081,
+        "nome": "Rubiataba",
+        "estados_id": 9
+      },
+      {
+        "id": 60082,
+        "nome": "Sanclerlândia",
+        "estados_id": 9
+      },
+      {
+        "id": 60083,
+        "nome": "Santa Cruz de Goiás",
+        "estados_id": 9
+      },
+      {
         "id": 1101,
         "nome": "Santa Helena de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60084,
+        "nome": "Santa Terezinha de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60085,
+        "nome": "Santo Antônio do Descoberto",
+        "estados_id": 9
+      },
+      {
+        "id": 60086,
+        "nome": "São Domingos",
         "estados_id": 9
       },
       {
@@ -153,25 +687,250 @@
         "estados_id": 9
       },
       {
+        "id": 60087,
+        "nome": "São Miguel do Araguaia",
+        "estados_id": 9
+      },
+      {
+        "id": 60088,
+        "nome": "São Simão",
+        "estados_id": 9
+      },
+      {
         "id": 1121,
         "nome": "Senador Canedo",
+        "estados_id": 9
+      },
+      {
+        "id": 60089,
+        "nome": "Serranópolis",
+        "estados_id": 9
+      },
+      {
+        "id": 60090,
+        "nome": "Silvânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60091,
+        "nome": "Tabelionato",
+        "estados_id": 9
+      },
+      {
+        "id": 60092,
+        "nome": "Taquaral de Goiás",
         "estados_id": 9
       },
       {
         "id": 1130,
         "nome": "Trindade",
         "estados_id": 9
+      },
+      {
+        "id": 60093,
+        "nome": "Turvânia",
+        "estados_id": 9
+      },
+      {
+        "id": 60094,
+        "nome": "Uruaçu",
+        "estados_id": 9
+      },
+      {
+        "id": 60095,
+        "nome": "Uruana",
+        "estados_id": 9
+      },
+      {
+        "id": 60096,
+        "nome": "Valparaíso de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 60097,
+        "nome": "Varjão",
+        "estados_id": 9
+      },
+      {
+        "id": 60098,
+        "nome": "Vianópolis",
+        "estados_id": 9
       }
     ],
     "TO": [
+      {
+        "id": 60000,
+        "nome": "Alvorada",
+        "estados_id": 27
+      },
+      {
+        "id": 60001,
+        "nome": "Ananás",
+        "estados_id": 27
+      },
+      {
+        "id": 60002,
+        "nome": "Araguacema",
+        "estados_id": 27
+      },
+      {
+        "id": 60003,
+        "nome": "Araguaçu",
+        "estados_id": 27
+      },
       {
         "id": 5458,
         "nome": "Araguaína",
         "estados_id": 27
       },
       {
+        "id": 60004,
+        "nome": "Araguatins",
+        "estados_id": 27
+      },
+      {
+        "id": 60005,
+        "nome": "Arapoema",
+        "estados_id": 27
+      },
+      {
+        "id": 60006,
+        "nome": "Arraias",
+        "estados_id": 27
+      },
+      {
+        "id": 60007,
+        "nome": "Augustinópolis",
+        "estados_id": 27
+      },
+      {
+        "id": 60008,
+        "nome": "Colinas do Tocantins",
+        "estados_id": 27
+      },
+      {
+        "id": 60009,
+        "nome": "Cristalândia",
+        "estados_id": 27
+      },
+      {
+        "id": 60010,
+        "nome": "Dianópolis",
+        "estados_id": 27
+      },
+      {
+        "id": 60011,
+        "nome": "Filadélfia",
+        "estados_id": 27
+      },
+      {
+        "id": 60012,
+        "nome": "Formoso do Araguaia",
+        "estados_id": 27
+      },
+      {
+        "id": 60013,
+        "nome": "Goiatins",
+        "estados_id": 27
+      },
+      {
+        "id": 60014,
+        "nome": "Guaraí",
+        "estados_id": 27
+      },
+      {
+        "id": 60015,
+        "nome": "Gurupi",
+        "estados_id": 27
+      },
+      {
+        "id": 60016,
+        "nome": "Itacajá",
+        "estados_id": 27
+      },
+      {
+        "id": 60017,
+        "nome": "Itaguatins",
+        "estados_id": 27
+      },
+      {
+        "id": 60018,
+        "nome": "Miracema do Tocantins",
+        "estados_id": 27
+      },
+      {
+        "id": 60019,
+        "nome": "Miranorte",
+        "estados_id": 27
+      },
+      {
+        "id": 60020,
+        "nome": "Natividade",
+        "estados_id": 27
+      },
+      {
+        "id": 60021,
+        "nome": "Novo Acordo",
+        "estados_id": 27
+      },
+      {
         "id": 5535,
         "nome": "Palmas",
+        "estados_id": 27
+      },
+      {
+        "id": 60022,
+        "nome": "Palmeirópolis",
+        "estados_id": 27
+      },
+      {
+        "id": 60023,
+        "nome": "Paraíso do Tocantins",
+        "estados_id": 27
+      },
+      {
+        "id": 60024,
+        "nome": "Paranã",
+        "estados_id": 27
+      },
+      {
+        "id": 60025,
+        "nome": "Pedro Afonso",
+        "estados_id": 27
+      },
+      {
+        "id": 60026,
+        "nome": "Peixe",
+        "estados_id": 27
+      },
+      {
+        "id": 60027,
+        "nome": "Ponte Alta do Tocantins",
+        "estados_id": 27
+      },
+      {
+        "id": 60028,
+        "nome": "Porto Nacional",
+        "estados_id": 27
+      },
+      {
+        "id": 60029,
+        "nome": "Taguatinga",
+        "estados_id": 27
+      },
+      {
+        "id": 60030,
+        "nome": "Tocantinópolis",
+        "estados_id": 27
+      },
+      {
+        "id": 60031,
+        "nome": "Wanderlândia",
+        "estados_id": 27
+      },
+      {
+        "id": 60032,
+        "nome": "Xambioá",
         "estados_id": 27
       }
     ]
