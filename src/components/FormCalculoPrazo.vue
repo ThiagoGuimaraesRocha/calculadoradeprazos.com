@@ -10,6 +10,7 @@ import {
   processoLegacyId,
   validarEntrada,
 } from '../domain/calcularPrazo';
+import { calcularPrazoViaApi } from '../services/calculoPrazoApi';
 import type { CalculoPrazoInput, CalculoPrazoResult, Estado, Municipio, Tribunal, Vara } from '../domain/types';
 import { useCalendario } from '../composables/useCalendario';
 import {
@@ -171,8 +172,18 @@ async function onCalcular() {
     return;
   }
 
+  const entrada = input as CalculoPrazoInput;
+
+  try {
+    const resultado = await calcularPrazoViaApi(entrada);
+    emit('calculado', resultado);
+    return;
+  } catch {
+    /* API indisponível (ex.: preview só Vite) — cálculo local com os mesmos dados */
+  }
+
   const recesso = await carregarRecessoTribunal(Number(tribunalId.value));
-  const resultado = calcularPrazo(input as CalculoPrazoInput, contexto.value, recesso);
+  const resultado = calcularPrazo(entrada, contexto.value, recesso);
   emit('calculado', resultado);
 }
 </script>

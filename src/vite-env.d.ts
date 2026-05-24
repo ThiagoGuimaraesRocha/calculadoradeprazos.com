@@ -1,4 +1,5 @@
 /// <reference types="vite/client" />
+/// <reference types="@cloudflare/workers-types" />
 
 interface ImportMetaEnv {
   readonly VITE_DADOS_BASE_URL?: string;

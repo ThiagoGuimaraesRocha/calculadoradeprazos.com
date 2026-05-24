@@ -32,6 +32,14 @@ Testes:
 npm test
 ```
 
+Regenerar índice de varas do piloto (após alterar municípios/tribunais):
+
+```bash
+npm run data:varas
+```
+
+API de cálculo (Cloudflare Worker): `POST /api/calculo-prazo` com o mesmo JSON documentado em `CalculoPrazoApiPayload` (`src/services/dadosLocalidade.ts`). Em produção o front chama a API; se indisponível, usa o motor local no navegador.
+
 ## Premissas de cálculo (piloto)
 
 - O prazo **sempre** começa no **primeiro dia útil** após a data da publicação.
