@@ -231,3 +231,16 @@ header h1 {
   font-size: 0.8125rem;
   color: var(--color-text-muted);
 }
+
+.site-footer-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.375rem 1rem;
+}
+
+.site-footer-meta .app-version,
+.site-footer-meta .counter {
+  margin: 0;
+}
