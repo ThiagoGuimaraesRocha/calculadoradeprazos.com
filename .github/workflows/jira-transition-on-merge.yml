@@ -1,0 +1,74 @@
+# Ao mergear PR em main, transiciona issues CALC-* ligadas ao PR para Done no Jira.
+# Secrets: JIRA_BASE_URL, JIRA_EMAIL, JIRA_API_TOKEN
+# Variáveis opcionais: JIRA_TRANSITION_ID, JIRA_TRANSITION_NAME
+name: Jira Done on PR merge
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  jira-transition:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extrair chaves CALC do PR
+        id: calc
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_HEAD: ${{ github.event.pull_request.head.ref }}
+        run: |
+          KEYS=$(printf '%s\n%s\n%s' "$PR_TITLE" "$PR_BODY" "$PR_HEAD" | grep -oE 'CALC-[0-9]+' | sort -u || true)
+          if [ -z "$KEYS" ]; then
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Nenhuma chave CALC-* no título, corpo ou branch do PR."
+            exit 0
+          fi
+          echo "found=true" >> "$GITHUB_OUTPUT"
+          {
+            echo "keys<<EOF"
+            echo "$KEYS"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Chaves encontradas:"
+          echo "$KEYS"
+
+      - name: Verificar secrets Jira
+        id: jira
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+        run: |
+          if [ -n "$JIRA_BASE_URL" ] && [ -n "$JIRA_EMAIL" ] && [ -n "$JIRA_API_TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Configure os secrets JIRA_BASE_URL, JIRA_EMAIL e JIRA_API_TOKEN no repositório."
+          fi
+
+      - name: Transicionar issues no Jira
+        if: steps.calc.outputs.found == 'true' && steps.jira.outputs.ready == 'true'
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_TRANSITION_ID: ${{ vars.JIRA_TRANSITION_ID }}
+          JIRA_TRANSITION_NAME: ${{ vars.JIRA_TRANSITION_NAME }}
+          KEYS: ${{ steps.calc.outputs.keys }}
+        run: |
+          chmod +x scripts/jira-transition-issues.sh
+          KEY_ARRAY=()
+          while IFS= read -r k; do
+            [[ -n "$k" ]] && KEY_ARRAY+=("$k")
+          done <<< "$KEYS"
+          scripts/jira-transition-issues.sh "${KEY_ARRAY[@]}"

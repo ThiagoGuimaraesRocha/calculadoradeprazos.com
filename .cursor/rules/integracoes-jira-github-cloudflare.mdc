@@ -24,6 +24,7 @@ Use esta regra ao configurar CI/CD, branches, PRs ou ao orientar commits que cru
 - Conectar o repositório ao Jira pelo **GitHub for Jira** (ou app equivalente) no site Atlassian: autorizar a org/repo e mapear o projeto.
 - Padronizar **tipo de issue** e **campos** (ex.: ambiente, risco de regra de prazo) conforme o fluxo interno; o código deve refletir o que estiver acordado na issue.
 - Smart commits e transições de workflow dependem da configuração do projeto Jira; alinhar prefixo do projeto (ex.: `CALC-`) com o usado nos branches e commits.
+- **PR mergeado em `main` → Done (opção 3):** workflow `.github/workflows/jira-transition-on-merge.yml` lê `CALC-*` no título, corpo ou branch do PR e chama a API Jira. Secrets: `JIRA_BASE_URL`, `JIRA_EMAIL`, `JIRA_API_TOKEN`. Variáveis opcionais: `JIRA_TRANSITION_ID` ou `JIRA_TRANSITION_NAME`. PR de teste deve incluir `Closes CALC-XX` (ou chave na branch `feature/CALC-XX-...`).
 
 ## Cloudflare Pages
 
