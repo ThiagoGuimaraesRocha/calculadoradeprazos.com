@@ -88,7 +88,7 @@ watch(estadoSigla, async (sigla) => {
     municipios.value = m;
     tribunais.value = t;
   } catch {
-    emit('erro', 'Erro ao carregar municípios ou tribunais.');
+    emit('erro', 'Erro ao carregar comarcas ou tribunais.');
   } finally {
     carregandoMunicipios.value = false;
     carregandoTribunais.value = false;
@@ -160,7 +160,8 @@ async function onCalcular() {
   }
 
   if (!contexto.value) {
-    erroFormulario.value = erroCalendario.value ?? 'Calendário de feriados não carregado para o município.';
+    erroFormulario.value =
+      erroCalendario.value ?? 'Calendário de feriados não carregado para a comarca selecionada.';
     emit('erro', erroFormulario.value);
     return;
   }
@@ -206,11 +207,18 @@ async function onCalcular() {
 
     <TomSelectCampo
       id="municipio"
-      label="Município"
+      label="Comarca (município sede)"
+      hint="Escolha a comarca onde o processo tramita. A lista traz a sede de cada comarca do estado — use a busca para encontrar o nome."
       v-model="municipioId"
       :options="opcoesMunicipios"
       :disabled="!estadoSigla || carregandoMunicipios"
-      :placeholder="carregandoMunicipios ? 'Carregando...' : 'Selecione...'"
+      :placeholder="
+        !estadoSigla
+          ? 'Selecione o estado primeiro'
+          : carregandoMunicipios
+            ? 'Carregando comarcas...'
+            : 'Selecione a comarca...'
+      "
       :invalid="!!camposInvalidos.municipio"
       required
       @update:model-value="limparErro"
@@ -309,7 +317,7 @@ async function onCalcular() {
       <button type="submit" class="btn-submit">Calcular</button>
       <p class="observacao">
         A contagem do prazo inicia-se no primeiro dia útil após a data da publicação. Piloto: Goiás e
-        Tocantins. Feriados nacionais, estaduais e municipais do município selecionado; recesso
+        Tocantins. Feriados nacionais, estaduais e municipais da comarca selecionada; recesso
         forense conforme o tribunal.
       </p>
       <p v-if="erroFormulario" class="form-error" role="alert">{{ erroFormulario }}</p>

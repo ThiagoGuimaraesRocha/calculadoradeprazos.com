@@ -116,7 +116,7 @@ export function calcularPrazo(
 export function validarEntrada(input: Partial<CalculoPrazoInput>): string | null {
   if (!input.dataPublicacao) return 'Informe a data da publicação.';
   if (!input.estadoSigla) return 'Selecione o estado.';
-  if (!input.municipioId) return 'Selecione o município.';
+  if (!input.municipioId) return 'Selecione a comarca.';
   if (!input.tribunalId) return 'Selecione o tribunal.';
   if (!input.materia) return 'Selecione a matéria.';
   if (!input.processo) return 'Informe se o processo é eletrônico ou físico.';

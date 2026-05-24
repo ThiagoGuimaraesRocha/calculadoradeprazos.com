@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineOptions({ inheritAttrs: false });
 
-import { nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 import TomSelect from 'tom-select';
 import 'tom-select/dist/css/tom-select.css';
 
@@ -20,14 +20,18 @@ const props = withDefaults(
     placeholder?: string;
     required?: boolean;
     invalid?: boolean;
+    hint?: string;
   }>(),
   {
     disabled: false,
     placeholder: 'Selecione...',
     required: false,
     invalid: false,
+    hint: '',
   },
 );
+
+const hintId = computed(() => (props.hint ? `${props.id}-ajuda` : undefined));
 
 const emit = defineEmits<{
   'update:modelValue': [value: string];
@@ -97,7 +101,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="campo" :class="[$attrs.class, { 'campo--invalido': invalid }]">
+  <div class="campo campo-tomselect" :class="[$attrs.class, { 'campo--invalido': invalid }]">
     <label :for="id">{{ label }}</label>
     <select
       :id="id"
@@ -105,11 +109,13 @@ onBeforeUnmount(() => {
       :disabled="disabled"
       :required="required"
       :aria-invalid="invalid ? 'true' : undefined"
+      :aria-describedby="hintId"
     >
       <option value="">{{ placeholder }}</option>
       <option v-for="opt in options" :key="opt.value" :value="opt.value">
         {{ opt.label }}
       </option>
     </select>
+    <p v-if="hint" :id="hintId" class="campo-ajuda">{{ hint }}</p>
   </div>
 </template>
