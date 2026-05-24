@@ -32,6 +32,16 @@ Testes:
 npm test
 ```
 
+## Versão da aplicação (SemVer)
+
+A versão oficial fica apenas em `package.json` (`version`). A SPA importa esse valor via `src/config/version.ts` (`APP_VERSION`), usado pelo build Vite em dev, preview e produção — **não** duplique a string em outros arquivos.
+
+Antes de um release (deploy em `main`):
+
+1. Atualize `version` em `package.json` conforme [SemVer](https://semver.org/lang/pt-BR/): **patch** (correções compatíveis), **minor** (funcionalidades compatíveis), **major** (mudanças incompatíveis).
+2. Rode `npm test` e `npm run build`.
+3. Faça merge do PR; o rodapé e demais telas que consumirem `APP_VERSION` passarão a exibir o novo número após o deploy.
+
 Spike de comarcas (CALC-21): ver `docs/comarcas-fonte-go-to.md` e `public/data/comarcas-mapeamento-legado.json`.
 
 ```bash
