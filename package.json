@@ -9,6 +9,7 @@
     "preview": "npm run build && wrangler dev",
     "test": "vitest run",
     "data:varas": "node scripts/build-varas-piloto.mjs",
+    "data:comarcas-gap": "node scripts/inventario-comarcas-gap.mjs",
     "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@types/node": "^22.10.5",
     "@cloudflare/workers-types": "^4.20260521.0",
     "@cloudflare/vite-plugin": "^1.38.0",
     "@vitejs/plugin-vue": "^5.2.1",

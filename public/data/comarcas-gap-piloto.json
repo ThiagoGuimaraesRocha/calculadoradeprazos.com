@@ -1,0 +1,179 @@
+{
+  "geradoEm": "2026-05-24",
+  "piloto": {
+    "GO": {
+      "atual": 24,
+      "oficial": 123,
+      "faltam": 99
+    },
+    "TO": {
+      "atual": 2,
+      "oficial": null,
+      "faltam": null
+    }
+  },
+  "idsLegadosPreservados": [
+    "904",
+    "913",
+    "916",
+    "945",
+    "949",
+    "956",
+    "987",
+    "991",
+    "992",
+    "1002",
+    "1017",
+    "1021",
+    "1025",
+    "1041",
+    "1054",
+    "1064",
+    "1071",
+    "1075",
+    "1086",
+    "1095",
+    "1101",
+    "1115",
+    "1121",
+    "1130",
+    "5458",
+    "5535"
+  ],
+  "municipiosAtuais": {
+    "GO": [
+      {
+        "id": 904,
+        "nome": "Águas Lindas de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 913,
+        "nome": "Anápolis",
+        "estados_id": 9
+      },
+      {
+        "id": 916,
+        "nome": "Aparecida de Goiânia",
+        "estados_id": 9
+      },
+      {
+        "id": 945,
+        "nome": "Caldas Novas",
+        "estados_id": 9
+      },
+      {
+        "id": 949,
+        "nome": "Campinorte",
+        "estados_id": 9
+      },
+      {
+        "id": 956,
+        "nome": "Catalão",
+        "estados_id": 9
+      },
+      {
+        "id": 987,
+        "nome": "Formoso",
+        "estados_id": 9
+      },
+      {
+        "id": 991,
+        "nome": "Goianésia",
+        "estados_id": 9
+      },
+      {
+        "id": 992,
+        "nome": "Goiânia",
+        "estados_id": 9
+      },
+      {
+        "id": 1002,
+        "nome": "Hidrolândia",
+        "estados_id": 9
+      },
+      {
+        "id": 1017,
+        "nome": "Itapirapuã",
+        "estados_id": 9
+      },
+      {
+        "id": 1021,
+        "nome": "Itumbiara",
+        "estados_id": 9
+      },
+      {
+        "id": 1025,
+        "nome": "Jataí",
+        "estados_id": 9
+      },
+      {
+        "id": 1041,
+        "nome": "Mineiros",
+        "estados_id": 9
+      },
+      {
+        "id": 1054,
+        "nome": "Nerópolis",
+        "estados_id": 9
+      },
+      {
+        "id": 1064,
+        "nome": "Novo Gama",
+        "estados_id": 9
+      },
+      {
+        "id": 1071,
+        "nome": "Palmeiras de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 1075,
+        "nome": "Paranaiguara",
+        "estados_id": 9
+      },
+      {
+        "id": 1086,
+        "nome": "Porangatu",
+        "estados_id": 9
+      },
+      {
+        "id": 1095,
+        "nome": "Rio Verde",
+        "estados_id": 9
+      },
+      {
+        "id": 1101,
+        "nome": "Santa Helena de Goiás",
+        "estados_id": 9
+      },
+      {
+        "id": 1115,
+        "nome": "São Luís de Montes Belos",
+        "estados_id": 9
+      },
+      {
+        "id": 1121,
+        "nome": "Senador Canedo",
+        "estados_id": 9
+      },
+      {
+        "id": 1130,
+        "nome": "Trindade",
+        "estados_id": 9
+      }
+    ],
+    "TO": [
+      {
+        "id": 5458,
+        "nome": "Araguaína",
+        "estados_id": 27
+      },
+      {
+        "id": 5535,
+        "nome": "Palmas",
+        "estados_id": 27
+      }
+    ]
+  }
+}
