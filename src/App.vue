@@ -2,7 +2,10 @@
 import { ref } from 'vue';
 import FormCalculoPrazo from './components/FormCalculoPrazo.vue';
 import ResultadoPrazo from './components/ResultadoPrazo.vue';
+import { APP_VERSION } from './config/version';
 import type { CalculoPrazoResult } from './domain/types';
+
+const versaoExibida = `v${APP_VERSION}`;
 
 const resultado = ref<CalculoPrazoResult | null>(null);
 
@@ -40,6 +43,9 @@ atualizarContador();
   </main>
 
   <footer class="site-footer">
-    <p class="counter">Acessos: <span id="contador">0</span></p>
+    <div class="site-footer-meta">
+      <p class="app-version">Versão {{ versaoExibida }}</p>
+      <p class="counter">Acessos: <span id="contador">0</span></p>
+    </div>
   </footer>
 </template>
