@@ -20,7 +20,7 @@ describe('executarCalculoPrazo (API)', () => {
   it('rejeita payload incompleto com 400', () => {
     const r = executarCalculoPrazo({ ...payloadValido, municipioId: 0 });
     expect(isHandlerErro(r)).toBe(true);
-    if (isHandlerErro(r)) expect(r.mensagem).toMatch(/município/i);
+    if (isHandlerErro(r)) expect(r.mensagem).toMatch(/comarca/i);
   });
 
   it('rejeita UF fora do piloto', () => {

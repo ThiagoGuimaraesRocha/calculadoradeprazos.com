@@ -118,7 +118,14 @@ header h1 {
   outline-offset: 2px;
 }
 
-.ts-wrapper {
+.campo-ajuda {
+  margin: 0.375rem 0 0;
+  font-size: 0.875rem;
+  line-height: var(--line-height-base);
+  color: var(--color-text-muted);
+}
+
+.campo-tomselect .ts-wrapper {
   margin-top: 0.5rem;
 }
 
@@ -126,6 +133,16 @@ header h1 {
   min-height: var(--touch-target-min);
   border-radius: 0.25rem;
   border-color: var(--color-input-border);
+}
+
+.campo-tomselect .ts-wrapper:focus-within .ts-control {
+  outline: 2px solid var(--color-focus-ring);
+  outline-offset: 2px;
+  border-color: var(--color-focus-ring);
+}
+
+.campo-tomselect .ts-dropdown {
+  max-width: min(100vw - 2 * var(--page-padding-x), 28rem);
 }
 
 .btn-submit {

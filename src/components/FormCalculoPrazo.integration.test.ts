@@ -61,10 +61,17 @@ describe('FormCalculoPrazo (integração)', () => {
     vi.unstubAllGlobals();
   });
 
+  it('exibe rótulo e ajuda de comarca no combo (CALC-23)', async () => {
+    const wrapper = mount(FormCalculoPrazo);
+    await flushPromises();
+    expect(wrapper.find('label[for="municipio"]').text()).toBe('Comarca (município sede)');
+    expect(wrapper.find('#municipio-ajuda').text()).toMatch(/comarca onde o processo tramita/i);
+  });
+
   it('exibe erro de validação ao calcular sem preencher', async () => {
     const wrapper = mount(FormCalculoPrazo);
     await wrapper.find('form').trigger('submit.prevent');
-    expect(wrapper.find('[role="alert"]').text()).toMatch(/estado|município|publicação/i);
+    expect(wrapper.find('[role="alert"]').text()).toMatch(/estado|comarca|publicação/i);
   });
 
   it('emite calculado ao submeter formulário válido via API', async () => {

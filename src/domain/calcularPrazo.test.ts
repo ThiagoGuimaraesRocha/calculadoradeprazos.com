@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { calcularPrazo } from './calcularPrazo';
+import { calcularPrazo, validarEntrada } from './calcularPrazo';
 import type { CalendarioContext, CalculoPrazoInput } from './types';
 
 const contextoVazio: CalendarioContext = {
@@ -18,6 +18,13 @@ const base: CalculoPrazoInput = {
   materia: 'civel',
   processo: 'eletronico',
 };
+
+describe('validarEntrada', () => {
+  it('exige comarca com mensagem orientada ao usuário (CALC-23)', () => {
+    const erro = validarEntrada({ ...base, municipioId: undefined });
+    expect(erro).toBe('Selecione a comarca.');
+  });
+});
 
 describe('calcularPrazo', () => {
   it('inicia no primeiro dia útil após a publicação (segunda após sexta)', () => {

@@ -29,7 +29,8 @@ atualizarContador();
   <main class="container">
     <p class="intro">
       Calculadora de prazos processuais em fase piloto para <strong>Goiás</strong> e
-      <strong>Tocantins</strong>. Considera feriados nacionais, estaduais e municipais do município,
+      <strong>Tocantins</strong>. Considera feriados nacionais, estaduais e municipais da comarca
+      selecionada (município sede),
       tipo de contagem (úteis ou corridos) e recesso forense do tribunal. Não substitui conferência
       por profissional habilitado.
     </p>
